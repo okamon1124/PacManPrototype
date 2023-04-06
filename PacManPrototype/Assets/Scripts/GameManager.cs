@@ -8,15 +8,15 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] GameObject GameOverUIpanel;
+    [SerializeField] GameObject GameOverPanel;
     [SerializeField] GameObject PlayerGameObject;
     [SerializeField] GameObject[] EnemyGameObjects;
 
     [SerializeField] int RemainingLives = 3;
-    [SerializeField] TMP_Text RemainingLivesUItext;
+    [SerializeField] TMP_Text RemainingLivesText;
 
     [SerializeField] int score = 0;
-    [SerializeField] TMP_Text ScoreUItext;
+    [SerializeField] TMP_Text ScoreText;
     [SerializeField] int TargetScore = 3;
     private int TargetNumberOfEnemyToKill;
     private int CurrentNumberOfEnemyToKill = 0;
@@ -41,15 +41,15 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        RemainingLivesUItext.text = "Remaing lives: " + RemainingLives.ToString();
-        ScoreUItext.text = "score: " + score.ToString();
+        RemainingLivesText.text = "Remaing lives: " + RemainingLives.ToString();
+        ScoreText.text = "score: " + score.ToString();
         TargetNumberOfEnemyToKill = EnemyGameObjects.Length;
     }
 
     public void HitByEnemy()
     {
         RemainingLives--;
-        RemainingLivesUItext.text = "Remaing lives: " + RemainingLives.ToString();
+        RemainingLivesText.text = "Remaing lives: " + RemainingLives.ToString();
         StartCoroutine(ShowRedPanel());
         if (RemainingLives <= 0) 
         {
@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
 
     private void GameOver()
     {
-        GameOverUIpanel.SetActive(true);
+        GameOverPanel.SetActive(true);
 
         for (int i = 0;i < EnemyGameObjects.Length;i++)
         {
@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour
     public void GainScore()
     {
         score += 1;
-        ScoreUItext.text = "score: " + score.ToString();
+        ScoreText.text = "score: " + score.ToString();
         if( score == TargetScore)
         {
             WinTheGame();
