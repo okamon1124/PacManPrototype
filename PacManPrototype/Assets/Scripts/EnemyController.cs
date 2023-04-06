@@ -7,7 +7,6 @@ public class EnemyController : MonoBehaviour
 {
     private GameObject TargetPlayer;
     private NavMeshAgent EnemyAgent;
-    //private bool FindedPlayer = false;
 
     // Start is called before the first frame update
     void Start()

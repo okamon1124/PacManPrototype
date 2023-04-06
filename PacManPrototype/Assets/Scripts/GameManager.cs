@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
+
 
 
 public class GameManager : MonoBehaviour
@@ -11,6 +13,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject GameOverUIpanel;
     [SerializeField] GameObject PlayerGameObject;
     [SerializeField] GameObject[] EnemyGameObjects;
+
+    [SerializeField] int RemainingLives = 3;
+    [SerializeField] TMP_Text RemainingLivesUItext;
+
 
     public static GameManager instance;
 
@@ -26,6 +32,22 @@ public class GameManager : MonoBehaviour
             Destroy(instance);
         }
     }
+
+    private void Start()
+    {
+        RemainingLivesUItext.text = "Remaing lives: " + RemainingLives.ToString();
+    }
+
+    public void HitByEnemy()
+    {
+        RemainingLives--;
+        RemainingLivesUItext.text = "Remaing lives: " + RemainingLives.ToString();
+        if (RemainingLives <= 0) 
+        {
+            GameOver();
+        }
+    }
+
 
     public void GameOver()
     {

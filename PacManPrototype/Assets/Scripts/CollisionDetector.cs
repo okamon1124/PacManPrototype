@@ -8,7 +8,7 @@ public class CollisionDetector : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            GameManager.instance.GameOver();
+            GameManager.instance.HitByEnemy();
         }
     }
 }
