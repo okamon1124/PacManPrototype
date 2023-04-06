@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - pac_dot
+  - power_pellet
   layers:
   - Default
   - TransparentFX

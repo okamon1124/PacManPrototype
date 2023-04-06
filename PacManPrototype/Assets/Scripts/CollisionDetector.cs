@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class CollisionDetector : MonoBehaviour
 {
+    [SerializeField] PlayerStatus playerStatus;
+
+    
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy" && playerStatus.PlayerEmpowered == false)
         {
             GameManager.instance.HitByEnemy();
+        }
+        else if (collision.gameObject.tag == "Enemy" && playerStatus.PlayerEmpowered == true)
+        {
+            Destroy(collision.gameObject);
         }
     }
 
@@ -17,6 +24,10 @@ public class CollisionDetector : MonoBehaviour
         if (other.gameObject.tag == "pac_dot")
         {
             GameManager.instance.GainScore();
+        }
+        else if((other.gameObject.tag == "power_pellet"))
+        {
+            playerStatus.PlayerPowerUP();
         }
     }
 }

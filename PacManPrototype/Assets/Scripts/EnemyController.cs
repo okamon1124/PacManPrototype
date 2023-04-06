@@ -21,5 +21,4 @@ public class EnemyController : MonoBehaviour
         EnemyAgent.SetDestination(TargetPlayer.transform.position);
     }
 
-
 }
