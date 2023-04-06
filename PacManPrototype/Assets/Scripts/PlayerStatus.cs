@@ -9,6 +9,7 @@ public class PlayerStatus : MonoBehaviour
 
     [SerializeField] private Material PlayerMaterial;
     [SerializeField] private Material PowerPelletMaterial;
+    [SerializeField] private GameObject PowerUpModeText;
 
     private Renderer player_material;
 
@@ -22,6 +23,7 @@ public class PlayerStatus : MonoBehaviour
         PlayerEmpowered = true;
         
         player_material.material = PowerPelletMaterial;
+        PowerUpModeText.SetActive(true);
         StartCoroutine(PlayerPowerUPcoroutine());
     }
 
@@ -31,6 +33,7 @@ public class PlayerStatus : MonoBehaviour
         yield return new WaitForSeconds(5f);
         player_material.material = PlayerMaterial;
         PlayerEmpowered= false;
+        PowerUpModeText.SetActive(false);
     }
 
 }

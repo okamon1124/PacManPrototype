@@ -18,6 +18,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] int score = 0;
     [SerializeField] TMP_Text ScoreUItext;
     [SerializeField] int TargetScore = 3;
+    private int TargetNumberOfEnemyToKill;
+    private int CurrentNumberOfEnemyToKill = 0;
 
     [SerializeField] GameObject WinTheGameUIpanel;
 
@@ -41,6 +43,7 @@ public class GameManager : MonoBehaviour
     {
         RemainingLivesUItext.text = "Remaing lives: " + RemainingLives.ToString();
         ScoreUItext.text = "score: " + score.ToString();
+        TargetNumberOfEnemyToKill = EnemyGameObjects.Length;
     }
 
     public void HitByEnemy()
@@ -100,4 +103,14 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void KillEnemy()
+    {
+        CurrentNumberOfEnemyToKill += 1;
+        if(CurrentNumberOfEnemyToKill == TargetNumberOfEnemyToKill) 
+        {
+            WinTheGame();
+        }
+    }
+
 }
