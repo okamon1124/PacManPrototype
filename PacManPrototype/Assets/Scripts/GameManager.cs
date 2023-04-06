@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
     private int CurrentNumberOfEnemyToKill = 0;
 
     [SerializeField] GameObject WinTheGameUIpanel;
-
+    [SerializeField] GameObject RedPanel;
 
     public static GameManager instance;
 
@@ -50,6 +50,7 @@ public class GameManager : MonoBehaviour
     {
         RemainingLives--;
         RemainingLivesUItext.text = "Remaing lives: " + RemainingLives.ToString();
+        StartCoroutine(ShowRedPanel());
         if (RemainingLives <= 0) 
         {
             GameOver();
@@ -113,4 +114,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    IEnumerator ShowRedPanel()
+    {
+        RedPanel.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        RedPanel.SetActive(false);
+    }
 }
