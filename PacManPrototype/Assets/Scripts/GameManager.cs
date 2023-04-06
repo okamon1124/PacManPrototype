@@ -62,12 +62,20 @@ public class GameManager : MonoBehaviour
         }
 
         Destroy(PlayerGameObject);
+
+        StartCoroutine(BackToMenu());
     }
 
     public void GainScore()
     {
         score += 1;
         ScoreUItext.text = "score: " + score.ToString();
+    }
+
+    IEnumerator BackToMenu()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(0);
     }
 
 }
