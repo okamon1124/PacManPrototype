@@ -19,6 +19,10 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] int score = 0;
     [SerializeField] TMP_Text ScoreUItext;
+    [SerializeField] int TargetScore = 3;
+
+    [SerializeField] GameObject WinTheGameUIpanel;
+
 
     public static GameManager instance;
 
@@ -52,7 +56,7 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void GameOver()
+    private void GameOver()
     {
         GameOverUIpanel.SetActive(true);
 
@@ -70,6 +74,22 @@ public class GameManager : MonoBehaviour
     {
         score += 1;
         ScoreUItext.text = "score: " + score.ToString();
+        if( score == TargetScore)
+        {
+            WinTheGame();
+        }
+    }
+
+    private void WinTheGame()
+    {
+        for (int i = 0; i < EnemyGameObjects.Length; i++)
+        {
+            Destroy(EnemyGameObjects[i]);
+        }
+
+        Destroy(PlayerGameObject);
+        WinTheGameUIpanel.SetActive(true);
+        StartCoroutine(BackToMenu());
     }
 
     IEnumerator BackToMenu()
