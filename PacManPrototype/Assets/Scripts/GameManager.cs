@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] int RemainingLives = 3;
     [SerializeField] TMP_Text RemainingLivesUItext;
 
+    [SerializeField] int score = 0;
+    [SerializeField] TMP_Text ScoreUItext;
 
     public static GameManager instance;
 
@@ -36,6 +38,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         RemainingLivesUItext.text = "Remaing lives: " + RemainingLives.ToString();
+        ScoreUItext.text = "score: " + score.ToString();
     }
 
     public void HitByEnemy()
@@ -61,5 +64,10 @@ public class GameManager : MonoBehaviour
         Destroy(PlayerGameObject);
     }
 
+    public void GainScore()
+    {
+        score += 1;
+        ScoreUItext.text = "score: " + score.ToString();
+    }
 
 }

@@ -11,4 +11,12 @@ public class CollisionDetector : MonoBehaviour
             GameManager.instance.HitByEnemy();
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "pac_dot")
+        {
+            GameManager.instance.GainScore();
+        }
+    }
 }
