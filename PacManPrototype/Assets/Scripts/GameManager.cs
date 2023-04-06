@@ -8,8 +8,6 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    //Instantiate(PlayerGameObject, new Vector3(0f, 0.5f, 3f), Quaternion.identity);
-
     [SerializeField] GameObject GameOverUIpanel;
     [SerializeField] GameObject PlayerGameObject;
     [SerializeField] GameObject[] EnemyGameObjects;
@@ -98,4 +96,8 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

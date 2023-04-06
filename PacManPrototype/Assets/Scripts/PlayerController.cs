@@ -31,5 +31,9 @@ public class PlayerController : MonoBehaviour
         {
             this.gameObject.transform.position += new Vector3(-1f * MovementSpeed * Time.deltaTime, 0f, 0f);
         }
+        else if (Input.GetKeyDown(KeyCode.R))
+        {
+            GameManager.instance.RestartGame();
+        }
     }
 }
