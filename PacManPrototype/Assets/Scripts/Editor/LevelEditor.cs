@@ -8,6 +8,7 @@ public class LevelEditor : EditorWindow
 
     Texture2D map;
     GameObject CubePrefab;
+    //Transform ParentTransform;
 
     [MenuItem("Window/LevelEditor")]
     public static void ShowWindow()
@@ -19,6 +20,8 @@ public class LevelEditor : EditorWindow
     {
         map = (Texture2D)EditorGUILayout.ObjectField("Add 2D map here", map, typeof(Texture2D), false);
         CubePrefab = (GameObject)EditorGUILayout.ObjectField("Drag Prefab here", CubePrefab, typeof(GameObject), false);
+        //ParentTransform = (Transform)EditorGUILayout.ObjectField("Drag Parent here",ParentTransform, typeof(Transform), false);
+        //ParentTransform = Selection.gameObjects[0].transform;
 
         if (GUILayout.Button("Creat Level"))
         {
@@ -45,8 +48,8 @@ public class LevelEditor : EditorWindow
         if(pixelColor.a != 0)
         {
             //Debug.Log("black Dot");
-            Vector3 posotion = new Vector3(x, 0f, y);
-            Instantiate(CubePrefab,posotion,Quaternion.identity);
+            Vector3 posotion = new Vector3(x, -0.25f, y);
+            Instantiate(CubePrefab, posotion, Quaternion.identity, Selection.transforms[0]);
         }
     }
 
