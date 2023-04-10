@@ -2,32 +2,93 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerController : Character
 {
-    [SerializeField] float MovementSpeed = 5f;
-    
-    // Update is called once per frame
-    void Update()
+    private MoveDirection current_direction = MoveDirection.Right;
+    private MoveDirection input_direction = MoveDirection.Right;
+    [SerializeField] float movement_speed = 1f;
+
+    private void Start()
     {
-        if (Input.GetKey(KeyCode.W) || (Input.GetKey(KeyCode.UpArrow)))
+        
+    }
+
+    private void Update()
+    {
+        ChangeInputDirection();
+        ChangeDirection();
+        Move();
+    }
+
+    private void ChangeInputDirection()
+    {
+        if (Input.GetKeyDown(KeyCode.W))
         {
-            this.gameObject.transform.position += new Vector3(0f, 0f, 1f * MovementSpeed * Time.deltaTime);
+            input_direction = MoveDirection.Forward;
         }
-        else if (Input.GetKey(KeyCode.S) || (Input.GetKey(KeyCode.DownArrow)))
+        else if (Input.GetKeyDown(KeyCode.A))
         {
-            this.gameObject.transform.position += new Vector3(0f, 0f, -1f * MovementSpeed * Time.deltaTime);
+            input_direction = MoveDirection.Left;
         }
-        else if (Input.GetKey(KeyCode.D) || (Input.GetKey(KeyCode.RightArrow)))
+        else if (Input.GetKeyDown(KeyCode.S))
         {
-            this.gameObject.transform.position += new Vector3(1f * MovementSpeed * Time.deltaTime, 0f, 0f);
+            input_direction = MoveDirection.Backward;
         }
-        else if(Input.GetKey(KeyCode.A) || (Input.GetKey(KeyCode.LeftArrow)))
+        else if (Input.GetKeyDown(KeyCode.D))
         {
-            this.gameObject.transform.position += new Vector3(-1f * MovementSpeed * Time.deltaTime, 0f, 0f);
+            input_direction = MoveDirection.Right;
         }
-        else if (Input.GetKeyDown(KeyCode.R))
+    }
+
+    private void ChangeDirection()
+    {
+        if(input_direction == MoveDirection.Forward)
         {
-            GameManager.instance.RestartGame();
+            if(!Physics.CheckSphere(transform.position + new Vector3(0f, 0f, 1f), 0.4f))
+            {
+                current_direction = MoveDirection.Forward;
+            }
+        }
+        else if (input_direction == MoveDirection.Left)
+        {
+            if (!Physics.CheckSphere(transform.position + new Vector3(-1f, 0f, 0f), 0.4f))
+            {
+                current_direction = MoveDirection.Left;
+            }
+        }
+        else if (input_direction == MoveDirection.Backward)
+        {
+            if (!Physics.CheckSphere(transform.position + new Vector3(0f, 0f, -1f), 0.4f))
+            {
+                current_direction = MoveDirection.Backward;
+            }
+        }
+        else if (input_direction == MoveDirection.Right)
+        {
+            if (!Physics.CheckSphere(transform.position + new Vector3(1f, 0f, 0f), 0.4f))
+            {
+                current_direction = MoveDirection.Right;
+            }
+        }
+    }
+
+    private void Move()
+    {
+        if(current_direction== MoveDirection.Forward)
+        {
+            transform.position += new Vector3(0f, 0f, movement_speed * Time.deltaTime);
+        }
+        else if (current_direction == MoveDirection.Left)
+        {
+            transform.position += new Vector3(-movement_speed * Time.deltaTime, 0f, 0f);
+        }
+        else if (current_direction == MoveDirection.Backward)
+        {
+            transform.position += new Vector3(0f, 0f, -movement_speed * Time.deltaTime);
+        }
+        else if (current_direction == MoveDirection.Right)
+        {
+            transform.position += new Vector3(movement_speed * Time.deltaTime, 0f, 0f);
         }
     }
 }
