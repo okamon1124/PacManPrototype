@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 191723}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 3046049}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -331,7 +331,7 @@ GameObject:
   - component: {fileID: 10108431}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -428,7 +428,7 @@ GameObject:
   - component: {fileID: 12645636}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -525,7 +525,7 @@ GameObject:
   - component: {fileID: 12963810}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -622,7 +622,7 @@ GameObject:
   - component: {fileID: 14762149}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -719,7 +719,7 @@ GameObject:
   - component: {fileID: 25494873}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -816,7 +816,7 @@ GameObject:
   - component: {fileID: 36709648}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -913,7 +913,7 @@ GameObject:
   - component: {fileID: 38543779}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1010,7 +1010,7 @@ GameObject:
   - component: {fileID: 41973656}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1107,7 +1107,7 @@ GameObject:
   - component: {fileID: 43482467}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1204,7 +1204,7 @@ GameObject:
   - component: {fileID: 48096103}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1301,7 +1301,7 @@ GameObject:
   - component: {fileID: 48798467}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1398,7 +1398,7 @@ GameObject:
   - component: {fileID: 53174127}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1495,7 +1495,7 @@ GameObject:
   - component: {fileID: 66024409}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1592,7 +1592,7 @@ GameObject:
   - component: {fileID: 69902224}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1689,7 +1689,7 @@ GameObject:
   - component: {fileID: 77850272}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1786,7 +1786,7 @@ GameObject:
   - component: {fileID: 83219241}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1883,7 +1883,7 @@ GameObject:
   - component: {fileID: 86419354}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1980,7 +1980,7 @@ GameObject:
   - component: {fileID: 88936206}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2077,7 +2077,7 @@ GameObject:
   - component: {fileID: 92701728}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2174,7 +2174,7 @@ GameObject:
   - component: {fileID: 101897677}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2271,7 +2271,7 @@ GameObject:
   - component: {fileID: 105042575}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2368,7 +2368,7 @@ GameObject:
   - component: {fileID: 105095747}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2465,7 +2465,7 @@ GameObject:
   - component: {fileID: 107887886}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2562,7 +2562,7 @@ GameObject:
   - component: {fileID: 109245173}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2659,7 +2659,7 @@ GameObject:
   - component: {fileID: 110113340}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2756,7 +2756,7 @@ GameObject:
   - component: {fileID: 112001758}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2853,7 +2853,7 @@ GameObject:
   - component: {fileID: 115356242}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2950,7 +2950,7 @@ GameObject:
   - component: {fileID: 116468867}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3047,7 +3047,7 @@ GameObject:
   - component: {fileID: 116779313}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3144,7 +3144,7 @@ GameObject:
   - component: {fileID: 121896040}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3241,7 +3241,7 @@ GameObject:
   - component: {fileID: 123297348}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3338,7 +3338,7 @@ GameObject:
   - component: {fileID: 130049442}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3435,7 +3435,7 @@ GameObject:
   - component: {fileID: 132653401}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3532,7 +3532,7 @@ GameObject:
   - component: {fileID: 134953810}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3629,7 +3629,7 @@ GameObject:
   - component: {fileID: 136698934}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3726,7 +3726,7 @@ GameObject:
   - component: {fileID: 139149404}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3823,7 +3823,7 @@ GameObject:
   - component: {fileID: 143648599}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3920,7 +3920,7 @@ GameObject:
   - component: {fileID: 156493365}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4017,7 +4017,7 @@ GameObject:
   - component: {fileID: 157325179}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4114,7 +4114,7 @@ GameObject:
   - component: {fileID: 159617751}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4211,7 +4211,7 @@ GameObject:
   - component: {fileID: 160297238}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4308,7 +4308,7 @@ GameObject:
   - component: {fileID: 169333258}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4405,7 +4405,7 @@ GameObject:
   - component: {fileID: 171162863}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4502,7 +4502,7 @@ GameObject:
   - component: {fileID: 176122148}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4599,7 +4599,7 @@ GameObject:
   - component: {fileID: 182005767}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4696,7 +4696,7 @@ GameObject:
   - component: {fileID: 190890216}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4793,7 +4793,7 @@ GameObject:
   - component: {fileID: 193117952}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4890,7 +4890,7 @@ GameObject:
   - component: {fileID: 197273512}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4987,7 +4987,7 @@ GameObject:
   - component: {fileID: 199152595}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5084,7 +5084,7 @@ GameObject:
   - component: {fileID: 199410577}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5181,7 +5181,7 @@ GameObject:
   - component: {fileID: 201350066}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5278,7 +5278,7 @@ GameObject:
   - component: {fileID: 202732174}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5375,7 +5375,7 @@ GameObject:
   - component: {fileID: 202812715}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5472,7 +5472,7 @@ GameObject:
   - component: {fileID: 209083597}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5569,7 +5569,7 @@ GameObject:
   - component: {fileID: 209489370}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5666,7 +5666,7 @@ GameObject:
   - component: {fileID: 210005850}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5763,7 +5763,7 @@ GameObject:
   - component: {fileID: 210695329}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5860,7 +5860,7 @@ GameObject:
   - component: {fileID: 212990689}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6092,7 +6092,7 @@ GameObject:
   - component: {fileID: 224262166}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6189,7 +6189,7 @@ GameObject:
   - component: {fileID: 225189151}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6286,7 +6286,7 @@ GameObject:
   - component: {fileID: 225205541}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6383,7 +6383,7 @@ GameObject:
   - component: {fileID: 229549807}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6480,7 +6480,7 @@ GameObject:
   - component: {fileID: 230158932}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6577,7 +6577,7 @@ GameObject:
   - component: {fileID: 232512662}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6674,7 +6674,7 @@ GameObject:
   - component: {fileID: 249553866}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6771,7 +6771,7 @@ GameObject:
   - component: {fileID: 250247603}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6868,7 +6868,7 @@ GameObject:
   - component: {fileID: 252143140}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6965,7 +6965,7 @@ GameObject:
   - component: {fileID: 254414401}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7062,7 +7062,7 @@ GameObject:
   - component: {fileID: 256526972}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7159,7 +7159,7 @@ GameObject:
   - component: {fileID: 268926719}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7256,7 +7256,7 @@ GameObject:
   - component: {fileID: 269995374}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7353,7 +7353,7 @@ GameObject:
   - component: {fileID: 270518040}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7450,7 +7450,7 @@ GameObject:
   - component: {fileID: 273279854}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7547,7 +7547,7 @@ GameObject:
   - component: {fileID: 280660597}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7644,7 +7644,7 @@ GameObject:
   - component: {fileID: 282793314}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7741,7 +7741,7 @@ GameObject:
   - component: {fileID: 284626791}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7838,7 +7838,7 @@ GameObject:
   - component: {fileID: 285379398}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7935,7 +7935,7 @@ GameObject:
   - component: {fileID: 285682244}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8032,7 +8032,7 @@ GameObject:
   - component: {fileID: 287706819}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8129,7 +8129,7 @@ GameObject:
   - component: {fileID: 290810327}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8226,7 +8226,7 @@ GameObject:
   - component: {fileID: 297151579}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8323,7 +8323,7 @@ GameObject:
   - component: {fileID: 299112828}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8420,7 +8420,7 @@ GameObject:
   - component: {fileID: 303060749}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8517,7 +8517,7 @@ GameObject:
   - component: {fileID: 303428578}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8614,7 +8614,7 @@ GameObject:
   - component: {fileID: 303707897}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8711,7 +8711,7 @@ GameObject:
   - component: {fileID: 312750916}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8808,7 +8808,7 @@ GameObject:
   - component: {fileID: 323326907}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8905,7 +8905,7 @@ GameObject:
   - component: {fileID: 324332412}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9002,7 +9002,7 @@ GameObject:
   - component: {fileID: 324873150}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9099,7 +9099,7 @@ GameObject:
   - component: {fileID: 327436604}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9196,7 +9196,7 @@ GameObject:
   - component: {fileID: 329803763}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9293,7 +9293,7 @@ GameObject:
   - component: {fileID: 333350975}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9390,7 +9390,7 @@ GameObject:
   - component: {fileID: 342683958}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9487,7 +9487,7 @@ GameObject:
   - component: {fileID: 342983748}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9584,7 +9584,7 @@ GameObject:
   - component: {fileID: 343619807}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9681,7 +9681,7 @@ GameObject:
   - component: {fileID: 344091277}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9778,7 +9778,7 @@ GameObject:
   - component: {fileID: 345128373}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9875,7 +9875,7 @@ GameObject:
   - component: {fileID: 350446514}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9972,7 +9972,7 @@ GameObject:
   - component: {fileID: 350568762}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10069,7 +10069,7 @@ GameObject:
   - component: {fileID: 352810076}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10166,7 +10166,7 @@ GameObject:
   - component: {fileID: 356532364}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10263,7 +10263,7 @@ GameObject:
   - component: {fileID: 357563462}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10360,7 +10360,7 @@ GameObject:
   - component: {fileID: 362948865}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10457,7 +10457,7 @@ GameObject:
   - component: {fileID: 364382911}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10554,7 +10554,7 @@ GameObject:
   - component: {fileID: 366982285}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10651,7 +10651,7 @@ GameObject:
   - component: {fileID: 369812667}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10779,7 +10779,7 @@ GameObject:
   - component: {fileID: 384277952}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10876,7 +10876,7 @@ GameObject:
   - component: {fileID: 388192027}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10973,7 +10973,7 @@ GameObject:
   - component: {fileID: 388392068}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11070,7 +11070,7 @@ GameObject:
   - component: {fileID: 389329313}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11167,7 +11167,7 @@ GameObject:
   - component: {fileID: 391847744}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11340,7 +11340,7 @@ GameObject:
   - component: {fileID: 394249016}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11572,7 +11572,7 @@ GameObject:
   - component: {fileID: 402788918}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11669,7 +11669,7 @@ GameObject:
   - component: {fileID: 410343349}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11766,7 +11766,7 @@ GameObject:
   - component: {fileID: 415441928}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11863,7 +11863,7 @@ GameObject:
   - component: {fileID: 423238007}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11960,7 +11960,7 @@ GameObject:
   - component: {fileID: 426064982}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12057,7 +12057,7 @@ GameObject:
   - component: {fileID: 431417052}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12154,7 +12154,7 @@ GameObject:
   - component: {fileID: 437727121}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12295,7 +12295,7 @@ GameObject:
   - component: {fileID: 443011093}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12392,7 +12392,7 @@ GameObject:
   - component: {fileID: 443546864}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12489,7 +12489,7 @@ GameObject:
   - component: {fileID: 444125205}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12586,7 +12586,7 @@ GameObject:
   - component: {fileID: 449568824}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12683,7 +12683,7 @@ GameObject:
   - component: {fileID: 453187300}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12780,7 +12780,7 @@ GameObject:
   - component: {fileID: 457996072}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12877,7 +12877,7 @@ GameObject:
   - component: {fileID: 461097391}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12974,7 +12974,7 @@ GameObject:
   - component: {fileID: 473633964}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13071,7 +13071,7 @@ GameObject:
   - component: {fileID: 478240524}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13168,7 +13168,7 @@ GameObject:
   - component: {fileID: 479509739}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13265,7 +13265,7 @@ GameObject:
   - component: {fileID: 487468417}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13362,7 +13362,7 @@ GameObject:
   - component: {fileID: 487539938}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13459,7 +13459,7 @@ GameObject:
   - component: {fileID: 488975313}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13556,7 +13556,7 @@ GameObject:
   - component: {fileID: 492820975}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13771,7 +13771,7 @@ GameObject:
   - component: {fileID: 499401126}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13868,7 +13868,7 @@ GameObject:
   - component: {fileID: 500009212}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13965,7 +13965,7 @@ GameObject:
   - component: {fileID: 505569947}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14062,7 +14062,7 @@ GameObject:
   - component: {fileID: 515523383}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14159,7 +14159,7 @@ GameObject:
   - component: {fileID: 516864776}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14256,7 +14256,7 @@ GameObject:
   - component: {fileID: 519780168}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14353,7 +14353,7 @@ GameObject:
   - component: {fileID: 522060560}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14450,7 +14450,7 @@ GameObject:
   - component: {fileID: 523825056}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14547,7 +14547,7 @@ GameObject:
   - component: {fileID: 524760333}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14644,7 +14644,7 @@ GameObject:
   - component: {fileID: 527104165}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14741,7 +14741,7 @@ GameObject:
   - component: {fileID: 527611186}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14973,7 +14973,7 @@ GameObject:
   - component: {fileID: 531871074}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15070,7 +15070,7 @@ GameObject:
   - component: {fileID: 548536286}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15167,7 +15167,7 @@ GameObject:
   - component: {fileID: 556297728}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15264,7 +15264,7 @@ GameObject:
   - component: {fileID: 558983922}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15361,7 +15361,7 @@ GameObject:
   - component: {fileID: 561523182}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15458,7 +15458,7 @@ GameObject:
   - component: {fileID: 575614310}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15555,7 +15555,7 @@ GameObject:
   - component: {fileID: 579274866}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15652,7 +15652,7 @@ GameObject:
   - component: {fileID: 594117008}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15749,7 +15749,7 @@ GameObject:
   - component: {fileID: 595869392}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15846,7 +15846,7 @@ GameObject:
   - component: {fileID: 595997846}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15943,7 +15943,7 @@ GameObject:
   - component: {fileID: 599254811}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16040,7 +16040,7 @@ GameObject:
   - component: {fileID: 601160891}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16137,7 +16137,7 @@ GameObject:
   - component: {fileID: 604608615}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16234,7 +16234,7 @@ GameObject:
   - component: {fileID: 606986943}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16331,7 +16331,7 @@ GameObject:
   - component: {fileID: 611269650}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16428,7 +16428,7 @@ GameObject:
   - component: {fileID: 620421272}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16525,7 +16525,7 @@ GameObject:
   - component: {fileID: 637478863}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16622,7 +16622,7 @@ GameObject:
   - component: {fileID: 641646848}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16716,7 +16716,7 @@ GameObject:
   - component: {fileID: 655228098}
   m_Layer: 0
   m_Name: Stage
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -17300,7 +17300,7 @@ GameObject:
   - component: {fileID: 660727443}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17397,7 +17397,7 @@ GameObject:
   - component: {fileID: 668139986}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17494,7 +17494,7 @@ GameObject:
   - component: {fileID: 669158917}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17591,7 +17591,7 @@ GameObject:
   - component: {fileID: 670928494}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17688,7 +17688,7 @@ GameObject:
   - component: {fileID: 675791253}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17892,7 +17892,7 @@ GameObject:
   - component: {fileID: 681694486}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17989,7 +17989,7 @@ GameObject:
   - component: {fileID: 682137470}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18086,7 +18086,7 @@ GameObject:
   - component: {fileID: 695260967}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18183,7 +18183,7 @@ GameObject:
   - component: {fileID: 695884949}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18280,7 +18280,7 @@ GameObject:
   - component: {fileID: 697162167}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18377,7 +18377,7 @@ GameObject:
   - component: {fileID: 705496535}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18474,7 +18474,7 @@ GameObject:
   - component: {fileID: 705696220}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18571,7 +18571,7 @@ GameObject:
   - component: {fileID: 708198804}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18668,7 +18668,7 @@ GameObject:
   - component: {fileID: 716074761}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18765,7 +18765,7 @@ GameObject:
   - component: {fileID: 727781917}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18862,7 +18862,7 @@ GameObject:
   - component: {fileID: 733079236}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18959,7 +18959,7 @@ GameObject:
   - component: {fileID: 748152150}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19056,7 +19056,7 @@ GameObject:
   - component: {fileID: 750366197}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19153,7 +19153,7 @@ GameObject:
   - component: {fileID: 757796328}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19250,7 +19250,7 @@ GameObject:
   - component: {fileID: 758128983}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19444,7 +19444,7 @@ GameObject:
   - component: {fileID: 766289469}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19541,7 +19541,7 @@ GameObject:
   - component: {fileID: 767089041}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19638,7 +19638,7 @@ GameObject:
   - component: {fileID: 767435904}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19735,7 +19735,7 @@ GameObject:
   - component: {fileID: 772998920}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19832,7 +19832,7 @@ GameObject:
   - component: {fileID: 776082316}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19929,7 +19929,7 @@ GameObject:
   - component: {fileID: 778396832}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20026,7 +20026,7 @@ GameObject:
   - component: {fileID: 778504653}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20200,7 +20200,7 @@ GameObject:
   - component: {fileID: 782014246}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20297,7 +20297,7 @@ GameObject:
   - component: {fileID: 785865211}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20394,7 +20394,7 @@ GameObject:
   - component: {fileID: 792051343}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20491,7 +20491,7 @@ GameObject:
   - component: {fileID: 796225325}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20588,7 +20588,7 @@ GameObject:
   - component: {fileID: 801968790}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20685,7 +20685,7 @@ GameObject:
   - component: {fileID: 804330185}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20782,7 +20782,7 @@ GameObject:
   - component: {fileID: 812956785}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20879,7 +20879,7 @@ GameObject:
   - component: {fileID: 814957040}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20976,7 +20976,7 @@ GameObject:
   - component: {fileID: 822817690}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21073,7 +21073,7 @@ GameObject:
   - component: {fileID: 828559498}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21170,7 +21170,7 @@ GameObject:
   - component: {fileID: 829828630}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21267,7 +21267,7 @@ GameObject:
   - component: {fileID: 832295640}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21364,7 +21364,7 @@ GameObject:
   - component: {fileID: 834080770}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21461,7 +21461,7 @@ GameObject:
   - component: {fileID: 838026841}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21558,7 +21558,7 @@ GameObject:
   - component: {fileID: 838347405}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21655,7 +21655,7 @@ GameObject:
   - component: {fileID: 838466928}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21752,7 +21752,7 @@ GameObject:
   - component: {fileID: 849887945}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21849,7 +21849,7 @@ GameObject:
   - component: {fileID: 859155082}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21946,7 +21946,7 @@ GameObject:
   - component: {fileID: 859503828}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22043,7 +22043,7 @@ GameObject:
   - component: {fileID: 859711231}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22140,7 +22140,7 @@ GameObject:
   - component: {fileID: 861527788}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22237,7 +22237,7 @@ GameObject:
   - component: {fileID: 872329892}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22334,7 +22334,7 @@ GameObject:
   - component: {fileID: 880866038}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22431,7 +22431,7 @@ GameObject:
   - component: {fileID: 889781954}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22528,7 +22528,7 @@ GameObject:
   - component: {fileID: 893137937}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22625,7 +22625,7 @@ GameObject:
   - component: {fileID: 894145502}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22722,7 +22722,7 @@ GameObject:
   - component: {fileID: 900570737}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22819,7 +22819,7 @@ GameObject:
   - component: {fileID: 902180106}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22916,7 +22916,7 @@ GameObject:
   - component: {fileID: 910411918}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23013,7 +23013,7 @@ GameObject:
   - component: {fileID: 920154396}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23110,7 +23110,7 @@ GameObject:
   - component: {fileID: 928410391}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23207,7 +23207,7 @@ GameObject:
   - component: {fileID: 930001617}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23304,7 +23304,7 @@ GameObject:
   - component: {fileID: 933254211}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23401,7 +23401,7 @@ GameObject:
   - component: {fileID: 935823552}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23498,7 +23498,7 @@ GameObject:
   - component: {fileID: 939271425}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23595,7 +23595,7 @@ GameObject:
   - component: {fileID: 939468277}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23692,7 +23692,7 @@ GameObject:
   - component: {fileID: 942266409}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23789,7 +23789,7 @@ GameObject:
   - component: {fileID: 943712774}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23886,7 +23886,7 @@ GameObject:
   - component: {fileID: 947017922}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23983,7 +23983,7 @@ GameObject:
   - component: {fileID: 948587556}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24080,7 +24080,7 @@ GameObject:
   - component: {fileID: 951867425}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24177,7 +24177,7 @@ GameObject:
   - component: {fileID: 956137178}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24274,7 +24274,7 @@ GameObject:
   - component: {fileID: 958574381}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24371,7 +24371,7 @@ GameObject:
   - component: {fileID: 965335504}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24468,7 +24468,7 @@ GameObject:
   - component: {fileID: 968407728}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24565,7 +24565,7 @@ GameObject:
   - component: {fileID: 969038012}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24662,7 +24662,7 @@ GameObject:
   - component: {fileID: 969241794}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24759,7 +24759,7 @@ GameObject:
   - component: {fileID: 969671725}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24856,7 +24856,7 @@ GameObject:
   - component: {fileID: 971452617}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24953,7 +24953,7 @@ GameObject:
   - component: {fileID: 974011197}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25050,7 +25050,7 @@ GameObject:
   - component: {fileID: 979254994}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25178,7 +25178,7 @@ GameObject:
   - component: {fileID: 985351871}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25275,7 +25275,7 @@ GameObject:
   - component: {fileID: 986067384}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25372,7 +25372,7 @@ GameObject:
   - component: {fileID: 988462836}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25469,7 +25469,7 @@ GameObject:
   - component: {fileID: 1002107237}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25566,7 +25566,7 @@ GameObject:
   - component: {fileID: 1003337132}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25663,7 +25663,7 @@ GameObject:
   - component: {fileID: 1013085278}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25760,7 +25760,7 @@ GameObject:
   - component: {fileID: 1019373412}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25857,7 +25857,7 @@ GameObject:
   - component: {fileID: 1019556784}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25954,7 +25954,7 @@ GameObject:
   - component: {fileID: 1021300206}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26051,7 +26051,7 @@ GameObject:
   - component: {fileID: 1022190122}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26148,7 +26148,7 @@ GameObject:
   - component: {fileID: 1026776655}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26245,7 +26245,7 @@ GameObject:
   - component: {fileID: 1028695538}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26342,7 +26342,7 @@ GameObject:
   - component: {fileID: 1044629807}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26574,7 +26574,7 @@ GameObject:
   - component: {fileID: 1058623110}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26671,7 +26671,7 @@ GameObject:
   - component: {fileID: 1061773380}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26768,7 +26768,7 @@ GameObject:
   - component: {fileID: 1070161660}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26865,7 +26865,7 @@ GameObject:
   - component: {fileID: 1070297361}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26962,7 +26962,7 @@ GameObject:
   - component: {fileID: 1070790598}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27059,7 +27059,7 @@ GameObject:
   - component: {fileID: 1074581192}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27156,7 +27156,7 @@ GameObject:
   - component: {fileID: 1077198561}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27253,7 +27253,7 @@ GameObject:
   - component: {fileID: 1078099644}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27350,7 +27350,7 @@ GameObject:
   - component: {fileID: 1087336042}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27447,7 +27447,7 @@ GameObject:
   - component: {fileID: 1091644268}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27544,7 +27544,7 @@ GameObject:
   - component: {fileID: 1092656914}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27641,7 +27641,7 @@ GameObject:
   - component: {fileID: 1092995391}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27738,7 +27738,7 @@ GameObject:
   - component: {fileID: 1103494202}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27835,7 +27835,7 @@ GameObject:
   - component: {fileID: 1103585393}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27932,7 +27932,7 @@ GameObject:
   - component: {fileID: 1113482460}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28029,7 +28029,7 @@ GameObject:
   - component: {fileID: 1122410906}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28126,7 +28126,7 @@ GameObject:
   - component: {fileID: 1123790952}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28223,7 +28223,7 @@ GameObject:
   - component: {fileID: 1124566983}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28320,7 +28320,7 @@ GameObject:
   - component: {fileID: 1124650897}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28417,7 +28417,7 @@ GameObject:
   - component: {fileID: 1130035126}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28514,7 +28514,7 @@ GameObject:
   - component: {fileID: 1134892222}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28611,7 +28611,7 @@ GameObject:
   - component: {fileID: 1138532564}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28708,7 +28708,7 @@ GameObject:
   - component: {fileID: 1138971300}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28805,7 +28805,7 @@ GameObject:
   - component: {fileID: 1145789157}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28902,7 +28902,7 @@ GameObject:
   - component: {fileID: 1145880590}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28999,7 +28999,7 @@ GameObject:
   - component: {fileID: 1152353602}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29096,7 +29096,7 @@ GameObject:
   - component: {fileID: 1156591329}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29193,7 +29193,7 @@ GameObject:
   - component: {fileID: 1156644708}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29290,7 +29290,7 @@ GameObject:
   - component: {fileID: 1159364215}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29387,7 +29387,7 @@ GameObject:
   - component: {fileID: 1159769440}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29484,7 +29484,7 @@ GameObject:
   - component: {fileID: 1160798410}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29581,7 +29581,7 @@ GameObject:
   - component: {fileID: 1160879918}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29678,7 +29678,7 @@ GameObject:
   - component: {fileID: 1165561319}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29775,7 +29775,7 @@ GameObject:
   - component: {fileID: 1167379233}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29872,7 +29872,7 @@ GameObject:
   - component: {fileID: 1167903493}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29969,7 +29969,7 @@ GameObject:
   - component: {fileID: 1170568545}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30066,7 +30066,7 @@ GameObject:
   - component: {fileID: 1171173411}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30278,7 +30278,7 @@ GameObject:
   - component: {fileID: 1176831999}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30375,7 +30375,7 @@ GameObject:
   - component: {fileID: 1178511354}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30472,7 +30472,7 @@ GameObject:
   - component: {fileID: 1180582177}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30569,7 +30569,7 @@ GameObject:
   - component: {fileID: 1184807497}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30666,7 +30666,7 @@ GameObject:
   - component: {fileID: 1186941220}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30763,7 +30763,7 @@ GameObject:
   - component: {fileID: 1187556484}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30860,7 +30860,7 @@ GameObject:
   - component: {fileID: 1192179899}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30957,7 +30957,7 @@ GameObject:
   - component: {fileID: 1198849969}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31054,7 +31054,7 @@ GameObject:
   - component: {fileID: 1199669883}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31151,7 +31151,7 @@ GameObject:
   - component: {fileID: 1200171414}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31248,7 +31248,7 @@ GameObject:
   - component: {fileID: 1206542675}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31345,7 +31345,7 @@ GameObject:
   - component: {fileID: 1220411545}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31442,7 +31442,7 @@ GameObject:
   - component: {fileID: 1224426315}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31539,7 +31539,7 @@ GameObject:
   - component: {fileID: 1233796976}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31636,7 +31636,7 @@ GameObject:
   - component: {fileID: 1235866500}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31868,7 +31868,7 @@ GameObject:
   - component: {fileID: 1244277345}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31965,7 +31965,7 @@ GameObject:
   - component: {fileID: 1246425720}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32062,7 +32062,7 @@ GameObject:
   - component: {fileID: 1247881787}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32159,7 +32159,7 @@ GameObject:
   - component: {fileID: 1254227363}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32256,7 +32256,7 @@ GameObject:
   - component: {fileID: 1256318914}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32353,7 +32353,7 @@ GameObject:
   - component: {fileID: 1257261928}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32450,7 +32450,7 @@ GameObject:
   - component: {fileID: 1257758079}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32547,7 +32547,7 @@ GameObject:
   - component: {fileID: 1266831295}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32644,7 +32644,7 @@ GameObject:
   - component: {fileID: 1274703872}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32741,7 +32741,7 @@ GameObject:
   - component: {fileID: 1276084715}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32838,7 +32838,7 @@ GameObject:
   - component: {fileID: 1279538384}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32935,7 +32935,7 @@ GameObject:
   - component: {fileID: 1282469112}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33032,7 +33032,7 @@ GameObject:
   - component: {fileID: 1283649037}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33129,7 +33129,7 @@ GameObject:
   - component: {fileID: 1284098790}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33226,7 +33226,7 @@ GameObject:
   - component: {fileID: 1294272838}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33323,7 +33323,7 @@ GameObject:
   - component: {fileID: 1299021656}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33420,7 +33420,7 @@ GameObject:
   - component: {fileID: 1299754816}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33517,7 +33517,7 @@ GameObject:
   - component: {fileID: 1299905884}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33614,7 +33614,7 @@ GameObject:
   - component: {fileID: 1299982699}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33711,7 +33711,7 @@ GameObject:
   - component: {fileID: 1301351111}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33808,7 +33808,7 @@ GameObject:
   - component: {fileID: 1301800118}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33905,7 +33905,7 @@ GameObject:
   - component: {fileID: 1306870965}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34002,7 +34002,7 @@ GameObject:
   - component: {fileID: 1320104420}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34099,7 +34099,7 @@ GameObject:
   - component: {fileID: 1322366886}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34196,7 +34196,7 @@ GameObject:
   - component: {fileID: 1325033001}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34293,7 +34293,7 @@ GameObject:
   - component: {fileID: 1326051021}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34390,7 +34390,7 @@ GameObject:
   - component: {fileID: 1327093949}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34487,7 +34487,7 @@ GameObject:
   - component: {fileID: 1331294774}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34584,7 +34584,7 @@ GameObject:
   - component: {fileID: 1336797095}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34681,7 +34681,7 @@ GameObject:
   - component: {fileID: 1337185412}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34778,7 +34778,7 @@ GameObject:
   - component: {fileID: 1342657072}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34875,7 +34875,7 @@ GameObject:
   - component: {fileID: 1344397502}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34972,7 +34972,7 @@ GameObject:
   - component: {fileID: 1356325491}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35069,7 +35069,7 @@ GameObject:
   - component: {fileID: 1362717039}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35182,7 +35182,7 @@ PrefabInstance:
     - target: {fileID: 814976051117799914, guid: ec70504fa22fbd647b589a0a256712e9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.007
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 814976051117799914, guid: ec70504fa22fbd647b589a0a256712e9,
         type: 3}
@@ -35260,7 +35260,7 @@ GameObject:
   - component: {fileID: 1364586147}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35357,7 +35357,7 @@ GameObject:
   - component: {fileID: 1364959957}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35454,7 +35454,7 @@ GameObject:
   - component: {fileID: 1372711105}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35551,7 +35551,7 @@ GameObject:
   - component: {fileID: 1377594100}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35648,7 +35648,7 @@ GameObject:
   - component: {fileID: 1378212222}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35745,7 +35745,7 @@ GameObject:
   - component: {fileID: 1383160769}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35842,7 +35842,7 @@ GameObject:
   - component: {fileID: 1386067707}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35939,7 +35939,7 @@ GameObject:
   - component: {fileID: 1389340120}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36092,7 +36092,7 @@ GameObject:
   - component: {fileID: 1398769165}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36189,7 +36189,7 @@ GameObject:
   - component: {fileID: 1412459059}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36286,7 +36286,7 @@ GameObject:
   - component: {fileID: 1412527493}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36383,7 +36383,7 @@ GameObject:
   - component: {fileID: 1413804166}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36480,7 +36480,7 @@ GameObject:
   - component: {fileID: 1415148810}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36577,7 +36577,7 @@ GameObject:
   - component: {fileID: 1425645472}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36674,7 +36674,7 @@ GameObject:
   - component: {fileID: 1426456126}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36771,7 +36771,7 @@ GameObject:
   - component: {fileID: 1429005962}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36868,7 +36868,7 @@ GameObject:
   - component: {fileID: 1441250013}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36965,7 +36965,7 @@ GameObject:
   - component: {fileID: 1446772111}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37062,7 +37062,7 @@ GameObject:
   - component: {fileID: 1452935116}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37159,7 +37159,7 @@ GameObject:
   - component: {fileID: 1456302918}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37256,7 +37256,7 @@ GameObject:
   - component: {fileID: 1456335098}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37353,7 +37353,7 @@ GameObject:
   - component: {fileID: 1461689090}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37450,7 +37450,7 @@ GameObject:
   - component: {fileID: 1469195601}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37547,7 +37547,7 @@ GameObject:
   - component: {fileID: 1469939496}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37644,7 +37644,7 @@ GameObject:
   - component: {fileID: 1470993495}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37741,7 +37741,7 @@ GameObject:
   - component: {fileID: 1474045633}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37838,7 +37838,7 @@ GameObject:
   - component: {fileID: 1481518245}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37935,7 +37935,7 @@ GameObject:
   - component: {fileID: 1481978432}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38032,7 +38032,7 @@ GameObject:
   - component: {fileID: 1488928451}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38129,7 +38129,7 @@ GameObject:
   - component: {fileID: 1491439329}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38226,7 +38226,7 @@ GameObject:
   - component: {fileID: 1491651396}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38323,7 +38323,7 @@ GameObject:
   - component: {fileID: 1493953558}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38420,7 +38420,7 @@ GameObject:
   - component: {fileID: 1494192167}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38517,7 +38517,7 @@ GameObject:
   - component: {fileID: 1497957807}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38614,7 +38614,7 @@ GameObject:
   - component: {fileID: 1498354938}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38711,7 +38711,7 @@ GameObject:
   - component: {fileID: 1499968070}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38808,7 +38808,7 @@ GameObject:
   - component: {fileID: 1502442917}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38905,7 +38905,7 @@ GameObject:
   - component: {fileID: 1506388490}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39002,7 +39002,7 @@ GameObject:
   - component: {fileID: 1511184970}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39099,7 +39099,7 @@ GameObject:
   - component: {fileID: 1513751048}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39196,7 +39196,7 @@ GameObject:
   - component: {fileID: 1518213402}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39293,7 +39293,7 @@ GameObject:
   - component: {fileID: 1524644720}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39390,7 +39390,7 @@ GameObject:
   - component: {fileID: 1527214702}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39487,7 +39487,7 @@ GameObject:
   - component: {fileID: 1531545738}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39584,7 +39584,7 @@ GameObject:
   - component: {fileID: 1532542194}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39681,7 +39681,7 @@ GameObject:
   - component: {fileID: 1539501502}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39778,7 +39778,7 @@ GameObject:
   - component: {fileID: 1541186137}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39875,7 +39875,7 @@ GameObject:
   - component: {fileID: 1546642115}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39972,7 +39972,7 @@ GameObject:
   - component: {fileID: 1549742369}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40069,7 +40069,7 @@ GameObject:
   - component: {fileID: 1559393271}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40166,7 +40166,7 @@ GameObject:
   - component: {fileID: 1560207806}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40263,7 +40263,7 @@ GameObject:
   - component: {fileID: 1563474094}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40360,7 +40360,7 @@ GameObject:
   - component: {fileID: 1563556299}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40457,7 +40457,7 @@ GameObject:
   - component: {fileID: 1565483590}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40554,7 +40554,7 @@ GameObject:
   - component: {fileID: 1566879091}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40651,7 +40651,7 @@ GameObject:
   - component: {fileID: 1582811427}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40748,7 +40748,7 @@ GameObject:
   - component: {fileID: 1585384857}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40845,7 +40845,7 @@ GameObject:
   - component: {fileID: 1588251858}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40942,7 +40942,7 @@ GameObject:
   - component: {fileID: 1588738984}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41039,7 +41039,7 @@ GameObject:
   - component: {fileID: 1590240872}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41136,7 +41136,7 @@ GameObject:
   - component: {fileID: 1603717163}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41233,7 +41233,7 @@ GameObject:
   - component: {fileID: 1610180478}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41330,7 +41330,7 @@ GameObject:
   - component: {fileID: 1618944517}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41427,7 +41427,7 @@ GameObject:
   - component: {fileID: 1621977892}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41524,7 +41524,7 @@ GameObject:
   - component: {fileID: 1628474472}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41621,7 +41621,7 @@ GameObject:
   - component: {fileID: 1638310599}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41718,7 +41718,7 @@ GameObject:
   - component: {fileID: 1639223455}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41815,7 +41815,7 @@ GameObject:
   - component: {fileID: 1648308312}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41912,7 +41912,7 @@ GameObject:
   - component: {fileID: 1650562590}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42009,7 +42009,7 @@ GameObject:
   - component: {fileID: 1662615103}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42106,7 +42106,7 @@ GameObject:
   - component: {fileID: 1665228225}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42203,7 +42203,7 @@ GameObject:
   - component: {fileID: 1665610321}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42300,7 +42300,7 @@ GameObject:
   - component: {fileID: 1667807488}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42397,7 +42397,7 @@ GameObject:
   - component: {fileID: 1673007056}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42494,7 +42494,7 @@ GameObject:
   - component: {fileID: 1674179929}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42591,7 +42591,7 @@ GameObject:
   - component: {fileID: 1677417522}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42688,7 +42688,7 @@ GameObject:
   - component: {fileID: 1695199174}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42785,7 +42785,7 @@ GameObject:
   - component: {fileID: 1695766058}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42882,7 +42882,7 @@ GameObject:
   - component: {fileID: 1706524393}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42979,7 +42979,7 @@ GameObject:
   - component: {fileID: 1710834995}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43076,7 +43076,7 @@ GameObject:
   - component: {fileID: 1713518810}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43173,7 +43173,7 @@ GameObject:
   - component: {fileID: 1718783533}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43270,7 +43270,7 @@ GameObject:
   - component: {fileID: 1719725588}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43367,7 +43367,7 @@ GameObject:
   - component: {fileID: 1720640510}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43464,7 +43464,7 @@ GameObject:
   - component: {fileID: 1721688560}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43561,7 +43561,7 @@ GameObject:
   - component: {fileID: 1723222055}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43658,7 +43658,7 @@ GameObject:
   - component: {fileID: 1726465247}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43755,7 +43755,7 @@ GameObject:
   - component: {fileID: 1726644779}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43852,7 +43852,7 @@ GameObject:
   - component: {fileID: 1730790966}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43949,7 +43949,7 @@ GameObject:
   - component: {fileID: 1730968573}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44046,7 +44046,7 @@ GameObject:
   - component: {fileID: 1737609155}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44143,7 +44143,7 @@ GameObject:
   - component: {fileID: 1745344513}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44240,7 +44240,7 @@ GameObject:
   - component: {fileID: 1748607946}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44337,7 +44337,7 @@ GameObject:
   - component: {fileID: 1751239244}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44434,7 +44434,7 @@ GameObject:
   - component: {fileID: 1752781284}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44531,7 +44531,7 @@ GameObject:
   - component: {fileID: 1753352219}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44628,7 +44628,7 @@ GameObject:
   - component: {fileID: 1754621010}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44725,7 +44725,7 @@ GameObject:
   - component: {fileID: 1755521355}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44822,7 +44822,7 @@ GameObject:
   - component: {fileID: 1755537924}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44919,7 +44919,7 @@ GameObject:
   - component: {fileID: 1763882666}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45016,7 +45016,7 @@ GameObject:
   - component: {fileID: 1766545080}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45113,7 +45113,7 @@ GameObject:
   - component: {fileID: 1767563073}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45210,7 +45210,7 @@ GameObject:
   - component: {fileID: 1767862626}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45307,7 +45307,7 @@ GameObject:
   - component: {fileID: 1772635098}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45404,7 +45404,7 @@ GameObject:
   - component: {fileID: 1773682673}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45501,7 +45501,7 @@ GameObject:
   - component: {fileID: 1776577592}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45598,7 +45598,7 @@ GameObject:
   - component: {fileID: 1776923257}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45695,7 +45695,7 @@ GameObject:
   - component: {fileID: 1777162690}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45792,7 +45792,7 @@ GameObject:
   - component: {fileID: 1781539192}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45889,7 +45889,7 @@ GameObject:
   - component: {fileID: 1781730801}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45986,7 +45986,7 @@ GameObject:
   - component: {fileID: 1792112651}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46083,7 +46083,7 @@ GameObject:
   - component: {fileID: 1795965429}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46180,7 +46180,7 @@ GameObject:
   - component: {fileID: 1796044972}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46277,7 +46277,7 @@ GameObject:
   - component: {fileID: 1796755468}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46374,7 +46374,7 @@ GameObject:
   - component: {fileID: 1801307384}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46471,7 +46471,7 @@ GameObject:
   - component: {fileID: 1803159696}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46568,7 +46568,7 @@ GameObject:
   - component: {fileID: 1806363306}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46665,7 +46665,7 @@ GameObject:
   - component: {fileID: 1809344193}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46762,7 +46762,7 @@ GameObject:
   - component: {fileID: 1811006858}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46859,7 +46859,7 @@ GameObject:
   - component: {fileID: 1815920154}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46956,7 +46956,7 @@ GameObject:
   - component: {fileID: 1817721700}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47053,7 +47053,7 @@ GameObject:
   - component: {fileID: 1818083493}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47150,7 +47150,7 @@ GameObject:
   - component: {fileID: 1818967318}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47247,7 +47247,7 @@ GameObject:
   - component: {fileID: 1826204065}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47344,7 +47344,7 @@ GameObject:
   - component: {fileID: 1826769861}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47441,7 +47441,7 @@ GameObject:
   - component: {fileID: 1827844253}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47538,7 +47538,7 @@ GameObject:
   - component: {fileID: 1827883022}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47635,7 +47635,7 @@ GameObject:
   - component: {fileID: 1829308791}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47732,7 +47732,7 @@ GameObject:
   - component: {fileID: 1829493691}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47829,7 +47829,7 @@ GameObject:
   - component: {fileID: 1834569783}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47926,7 +47926,7 @@ GameObject:
   - component: {fileID: 1839045004}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48023,7 +48023,7 @@ GameObject:
   - component: {fileID: 1840289901}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48197,7 +48197,7 @@ GameObject:
   - component: {fileID: 1847871123}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48294,7 +48294,7 @@ GameObject:
   - component: {fileID: 1847915557}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48391,7 +48391,7 @@ GameObject:
   - component: {fileID: 1848294473}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48488,7 +48488,7 @@ GameObject:
   - component: {fileID: 1849214593}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48585,7 +48585,7 @@ GameObject:
   - component: {fileID: 1854673351}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48682,7 +48682,7 @@ GameObject:
   - component: {fileID: 1854929433}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48779,7 +48779,7 @@ GameObject:
   - component: {fileID: 1858695839}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48876,7 +48876,7 @@ GameObject:
   - component: {fileID: 1862626331}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48973,7 +48973,7 @@ GameObject:
   - component: {fileID: 1864157540}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49070,7 +49070,7 @@ GameObject:
   - component: {fileID: 1866610937}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49167,7 +49167,7 @@ GameObject:
   - component: {fileID: 1880707329}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49264,7 +49264,7 @@ GameObject:
   - component: {fileID: 1882363956}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49361,7 +49361,7 @@ GameObject:
   - component: {fileID: 1883534577}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49458,7 +49458,7 @@ GameObject:
   - component: {fileID: 1889967635}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49555,7 +49555,7 @@ GameObject:
   - component: {fileID: 1894954085}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49652,7 +49652,7 @@ GameObject:
   - component: {fileID: 1909146635}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49749,7 +49749,7 @@ GameObject:
   - component: {fileID: 1916204375}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49846,7 +49846,7 @@ GameObject:
   - component: {fileID: 1917958482}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49943,7 +49943,7 @@ GameObject:
   - component: {fileID: 1918142490}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50040,7 +50040,7 @@ GameObject:
   - component: {fileID: 1918242180}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50137,7 +50137,7 @@ GameObject:
   - component: {fileID: 1926269764}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50234,7 +50234,7 @@ GameObject:
   - component: {fileID: 1930873363}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50331,7 +50331,7 @@ GameObject:
   - component: {fileID: 1944052522}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50428,7 +50428,7 @@ GameObject:
   - component: {fileID: 1948179320}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50525,7 +50525,7 @@ GameObject:
   - component: {fileID: 1954151491}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50759,7 +50759,7 @@ GameObject:
   - component: {fileID: 1955469804}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50856,7 +50856,7 @@ GameObject:
   - component: {fileID: 1965791251}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50953,7 +50953,7 @@ GameObject:
   - component: {fileID: 1968264482}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51050,7 +51050,7 @@ GameObject:
   - component: {fileID: 1971420392}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51147,7 +51147,7 @@ GameObject:
   - component: {fileID: 1982371253}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51244,7 +51244,7 @@ GameObject:
   - component: {fileID: 1983593806}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51341,7 +51341,7 @@ GameObject:
   - component: {fileID: 1984880079}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51438,7 +51438,7 @@ GameObject:
   - component: {fileID: 1985745690}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51535,7 +51535,7 @@ GameObject:
   - component: {fileID: 1987775353}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51632,7 +51632,7 @@ GameObject:
   - component: {fileID: 1989531246}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51729,7 +51729,7 @@ GameObject:
   - component: {fileID: 2000532969}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51826,7 +51826,7 @@ GameObject:
   - component: {fileID: 2011500649}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51923,7 +51923,7 @@ GameObject:
   - component: {fileID: 2011526817}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52020,7 +52020,7 @@ GameObject:
   - component: {fileID: 2015894826}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52185,7 +52185,7 @@ GameObject:
   - component: {fileID: 2017893709}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52282,7 +52282,7 @@ GameObject:
   - component: {fileID: 2019284109}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52379,7 +52379,7 @@ GameObject:
   - component: {fileID: 2020408993}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52476,7 +52476,7 @@ GameObject:
   - component: {fileID: 2021307376}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52573,7 +52573,7 @@ GameObject:
   - component: {fileID: 2021544225}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52670,7 +52670,7 @@ GameObject:
   - component: {fileID: 2022566294}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52767,7 +52767,7 @@ GameObject:
   - component: {fileID: 2025577630}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52864,7 +52864,7 @@ GameObject:
   - component: {fileID: 2031053398}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52961,7 +52961,7 @@ GameObject:
   - component: {fileID: 2033336799}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53058,7 +53058,7 @@ GameObject:
   - component: {fileID: 2034329021}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53155,7 +53155,7 @@ GameObject:
   - component: {fileID: 2035233294}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53252,7 +53252,7 @@ GameObject:
   - component: {fileID: 2044304365}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53349,7 +53349,7 @@ GameObject:
   - component: {fileID: 2045838907}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53446,7 +53446,7 @@ GameObject:
   - component: {fileID: 2050852370}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53543,7 +53543,7 @@ GameObject:
   - component: {fileID: 2061033148}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53640,7 +53640,7 @@ GameObject:
   - component: {fileID: 2062977605}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53737,7 +53737,7 @@ GameObject:
   - component: {fileID: 2068111144}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53834,7 +53834,7 @@ GameObject:
   - component: {fileID: 2070745408}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53931,7 +53931,7 @@ GameObject:
   - component: {fileID: 2070767193}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54028,7 +54028,7 @@ GameObject:
   - component: {fileID: 2074413530}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54125,7 +54125,7 @@ GameObject:
   - component: {fileID: 2080017058}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54222,7 +54222,7 @@ GameObject:
   - component: {fileID: 2089505032}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54319,7 +54319,7 @@ GameObject:
   - component: {fileID: 2089931689}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54416,7 +54416,7 @@ GameObject:
   - component: {fileID: 2090684892}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54513,7 +54513,7 @@ GameObject:
   - component: {fileID: 2090751607}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54610,7 +54610,7 @@ GameObject:
   - component: {fileID: 2091595930}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54707,7 +54707,7 @@ GameObject:
   - component: {fileID: 2099071200}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54804,7 +54804,7 @@ GameObject:
   - component: {fileID: 2102458100}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54901,7 +54901,7 @@ GameObject:
   - component: {fileID: 2117909010}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54998,7 +54998,7 @@ GameObject:
   - component: {fileID: 2121642891}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55095,7 +55095,7 @@ GameObject:
   - component: {fileID: 2123964440}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55192,7 +55192,7 @@ GameObject:
   - component: {fileID: 2125435193}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55289,7 +55289,7 @@ GameObject:
   - component: {fileID: 2126051896}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55386,7 +55386,7 @@ GameObject:
   - component: {fileID: 2132268456}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55483,7 +55483,7 @@ GameObject:
   - component: {fileID: 2132391498}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55580,7 +55580,7 @@ GameObject:
   - component: {fileID: 2138069146}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55677,7 +55677,7 @@ GameObject:
   - component: {fileID: 2138571237}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55774,7 +55774,7 @@ GameObject:
   - component: {fileID: 2146919941}
   m_Layer: 0
   m_Name: CubePrefab(Clone)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
