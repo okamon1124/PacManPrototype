@@ -5,11 +5,9 @@ using System;
 
 public class PlayerController : Character
 {
-    private MoveDirection current_direction = MoveDirection.Right;
-    private MoveDirection input_direction = MoveDirection.Right;
-    [SerializeField] float movement_speed = 1f;
-
-
+    MoveDirection input_direction = MoveDirection.Right;
+    MoveDirection current_direction = MoveDirection.Right;
+    
     private void Start()
     {
         RoundPosition();
@@ -19,7 +17,7 @@ public class PlayerController : Character
     {
         ChangeInputDirection();
         ChangeDirection();
-        Move();
+        MoveAndTurn(2f, current_direction, 0.1f, 0.5f);
     }
 
     private void ChangeInputDirection()
@@ -82,89 +80,6 @@ public class PlayerController : Character
         }
     }
 
-    private void Move()
-    {
-        if(current_direction== MoveDirection.Forward)
-        {
-            if(!CheckFaceWall(current_direction, 0.1f, 0.5f))
-                transform.position += new Vector3(0f, 0f, movement_speed * Time.deltaTime);
-            else
-                RoundPosition();
-        }
-        else if (current_direction == MoveDirection.Left)
-        {
-            if (!CheckFaceWall(current_direction, 0.1f, 0.5f))
-                transform.position += new Vector3(-movement_speed * Time.deltaTime, 0f, 0f);
-            else
-                RoundPosition();
-        }
-        else if (current_direction == MoveDirection.Backward)
-        {
-            if (!CheckFaceWall(current_direction, 0.1f, 0.5f))
-                transform.position += new Vector3(0f, 0f, -movement_speed * Time.deltaTime);
-            else
-                RoundPosition();
-        }
-        else if (current_direction == MoveDirection.Right)
-        {
-            if (!CheckFaceWall(current_direction, 0.1f, 0.5f))
-                transform.position += new Vector3(movement_speed * Time.deltaTime, 0f, 0f);
-            else
-                RoundPosition();
-        }
-    }
-
-    private void RoundPosition()
-    {
-        double x_pos = Convert.ToDouble(transform.position.x);
-        double y_pos = Convert.ToDouble(transform.position.y);
-        double z_pos = Convert.ToDouble(transform.position.z);
-
-        x_pos = Math.Round(x_pos);
-        y_pos = Math.Round(y_pos);
-        z_pos = Math.Round(z_pos);
-
-        transform.position = new Vector3((float)x_pos, (float)y_pos, (float)z_pos);
-    }
-
-    private bool CheckFaceWall(MoveDirection moveDirection, float CheckSphereSize, float CheckSpherePosition)
-    {
-        if(moveDirection== MoveDirection.Forward)
-        {
-            var collideList = Physics.OverlapSphere(transform.position + new Vector3(0f, 0f, CheckSpherePosition), CheckSphereSize);
-            return CollideChecker(collideList);
-        }
-        else if(moveDirection== MoveDirection.Left)
-        {
-            var collideList = Physics.OverlapSphere(transform.position + new Vector3(-CheckSpherePosition, 0f, 0f), CheckSphereSize);
-            return CollideChecker(collideList);
-        }
-        else if (moveDirection== MoveDirection.Backward)
-        {
-            var collideList = Physics.OverlapSphere(transform.position + new Vector3(0f, 0f, -CheckSpherePosition), CheckSphereSize);
-            return CollideChecker(collideList);
-        }
-        else
-        {
-            var collideList = Physics.OverlapSphere(transform.position + new Vector3(CheckSpherePosition, 0f, 0f), CheckSphereSize);
-            return CollideChecker(collideList);
-        }
-    }
-
-    private bool CollideChecker(Collider[] collideList)
-    {
-        bool any_wall = false;
-
-        foreach (var collide in collideList)
-        {
-            if (collide.tag == "wall")
-            {
-                any_wall = true;
-            }
-        }
-        return any_wall;
-    }
-
     private bool CheckOppositeDirectionInput()
     {
         if ((current_direction == MoveDirection.Left && input_direction == MoveDirection.Right)
@@ -179,5 +94,4 @@ public class PlayerController : Character
             return false;
         }
     }
-
 }

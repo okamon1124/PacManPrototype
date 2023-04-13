@@ -8,6 +8,7 @@ TagManager:
   - pac_dot
   - power_pellet
   - wall
+  - intersection_cube
   layers:
   - Default
   - TransparentFX
