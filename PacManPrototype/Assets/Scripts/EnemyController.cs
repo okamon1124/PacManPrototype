@@ -5,15 +5,13 @@ using UnityEngine.AI;
 
 public class EnemyController : Character
 {
-    MoveDirection current_direction = MoveDirection.Right;
-
-    EnemyState enemyState = EnemyState.SCATTER;
-
-    private Vector3 TargetPosition;
     [SerializeField] Vector3 TargetScatterPostion;
     private Vector3 TargetPlayerPosition;
+    private Vector3 TargetPosition = Vector3.zero;
+    private Vector3 LastIntersectionPosition = Vector3.zero;
 
-    private bool run_once = false;
+    MoveDirection current_direction = MoveDirection.Right;
+    EnemyState enemyState = EnemyState.SCATTER;
 
     enum EnemyState
     {
@@ -23,21 +21,19 @@ public class EnemyController : Character
         EATEN
     }
 
-    // Start is called before the first frame update
     void Start()
     {
-        TargetPlayerPosition = GameObject.Find("Player").transform.position;
+        enemyState= EnemyState.SCATTER;
+        StartCoroutine(ChangeEnemyState());
+        
     }
-
-    // Update is called once per frame
-    
 
     private void Update()
     {
-        if (run_once == false)
-        {
-            CheckIntersection(0.01f);
-        }
+        TargetPlayerPosition = GameObject.FindWithTag("Player").transform.position;
+        //print(TargetPosition.ToString());
+        CheckEnemyState();
+        CheckIntersection(0.01f);
         MoveAndTurn(2f, current_direction, 0.1f, 0.5f);
     }
 
@@ -46,14 +42,27 @@ public class EnemyController : Character
         var collideList = Physics.OverlapSphere(transform.position, CheckSphereSize);
         if (CollideChecker(collideList, "intersection_cube"))
         {
-            print("call FindNextDirection() function");
-            FindNextDirection();
+            var current_intersection_position = Vector3.zero;
+            foreach (var collide in collideList)
+            {
+                if (collide.tag == "intersection_cube")
+                {
+                    current_intersection_position = collide.transform.position;
+                }
+            }
+
+            if(current_intersection_position != LastIntersectionPosition)
+            {
+                LastIntersectionPosition= current_intersection_position;
+                print($"call FindNextDirection() function, lastIntersection: {LastIntersectionPosition.ToString()}");
+                FindNextDirection();
+            }
         }
     }
 
     private void FindNextDirection()
     {
-        var possibleNextDirections = new HashSet<MoveDirection>() { MoveDirection.Right, MoveDirection.Left, MoveDirection.Backward, MoveDirection.Forward };
+        var possibleNextDirections = new HashSet<MoveDirection>() { MoveDirection.Forward,  MoveDirection.Left, MoveDirection.Backward, MoveDirection.Right};
         var DirectionToRemove = new HashSet<MoveDirection>();
         possibleNextDirections.Remove(FindOppositeDirection(current_direction));
 
@@ -69,13 +78,7 @@ public class EnemyController : Character
         {
             possibleNextDirections.Remove(direction);
         }
-
-        foreach(var direction in possibleNextDirections)
-        {
-            print(direction.ToString());
-        }
-        //print(possibleNextDirections);
-        run_once= true;
+        ChooseShortestDirection(possibleNextDirections);
     }
 
     private MoveDirection FindOppositeDirection(MoveDirection moveDirection)
@@ -98,5 +101,76 @@ public class EnemyController : Character
         }
     }
 
+    private void ChooseShortestDirection(HashSet<MoveDirection> directions)
+    {
+        var current_distance = 0f;
+        var current_min_distance = 100000f;
+        var current_best_direction = MoveDirection.Right;
 
+        foreach (var direction in directions)
+        {
+            if (direction == MoveDirection.Forward)
+            {
+                current_distance = Mathf.Abs(Vector3.Distance(LastIntersectionPosition + new Vector3(0f, 0f, 1f), TargetPosition));
+                if (current_distance <= current_min_distance)
+                {
+                    current_min_distance = current_distance;
+                    current_best_direction = MoveDirection.Forward;
+                }
+            }
+            else if (direction == MoveDirection.Left)
+            {
+                current_distance = Mathf.Abs(Vector3.Distance(LastIntersectionPosition + new Vector3(-1f, 0f, 0f), TargetPosition));
+                if (current_distance <= current_min_distance)
+                {
+                    current_min_distance = current_distance;
+                    current_best_direction = MoveDirection.Left;
+                }
+            }
+            else if (direction == MoveDirection.Backward)
+            {
+                current_distance = Mathf.Abs(Vector3.Distance(LastIntersectionPosition + new Vector3(0f, 0f, -1f), TargetPosition));
+                if (current_distance <= current_min_distance)
+                {
+                    current_min_distance = current_distance;
+                    current_best_direction = MoveDirection.Backward;
+                }
+            }
+            else if (direction == MoveDirection.Right)
+            {
+                current_distance = Mathf.Abs(Vector3.Distance(LastIntersectionPosition + new Vector3(1f, 0f, 0f), TargetPosition));
+                if (current_distance <= current_min_distance)
+                {
+                    current_min_distance = current_distance;
+                    current_best_direction = MoveDirection.Right;
+                }
+            }
+            current_direction = current_best_direction;
+        }
+    }
+
+    IEnumerator ChangeEnemyState()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(10f);
+            enemyState = EnemyState.CHASE;
+            print("enemy chasing you!");
+            yield return new WaitForSeconds(10f);
+            enemyState = EnemyState.SCATTER;
+            print("enemy patrolling...");
+        }
+    }
+
+    private void CheckEnemyState()
+    {
+        if(enemyState == EnemyState.SCATTER)
+        {
+            TargetPosition = TargetScatterPostion;
+        }
+        else if(enemyState == EnemyState.CHASE)
+        {
+            TargetPosition = TargetPlayerPosition;
+        }
+    }
 }
