@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
 public class EnemyController : Character
 {
@@ -25,13 +24,11 @@ public class EnemyController : Character
     {
         enemyState= EnemyState.SCATTER;
         StartCoroutine(ChangeEnemyState());
-        
     }
 
     private void Update()
     {
         TargetPlayerPosition = GameObject.FindWithTag("Player").transform.position;
-        //print(TargetPosition.ToString());
         CheckEnemyState();
         CheckIntersection(0.01f);
         MoveAndTurn(2f, current_direction, 0.1f, 0.5f);
@@ -54,7 +51,7 @@ public class EnemyController : Character
             if(current_intersection_position != LastIntersectionPosition)
             {
                 LastIntersectionPosition= current_intersection_position;
-                print($"call FindNextDirection() function, lastIntersection: {LastIntersectionPosition.ToString()}");
+                //print($"call FindNextDirection() function, lastIntersection: {LastIntersectionPosition.ToString()}");
                 FindNextDirection();
             }
         }
