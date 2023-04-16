@@ -6,7 +6,7 @@ using System;
 public class PlayerController : Character
 {
     MoveDirection input_direction = MoveDirection.Right;
-    MoveDirection current_direction = MoveDirection.Right;
+    public MoveDirection PlayerCurrentDirection = MoveDirection.Right;
     
     private void Start()
     {
@@ -17,7 +17,7 @@ public class PlayerController : Character
     {
         ChangeInputDirection();
         ChangeDirection();
-        MoveAndTurn(2f, current_direction, 0.1f, 0.5f);
+        MoveAndTurn(2f, PlayerCurrentDirection, 0.1f, 0.5f);
     }
 
     private void ChangeInputDirection()
@@ -46,46 +46,46 @@ public class PlayerController : Character
         {
             if(!CheckFaceWall(MoveDirection.Forward, 0.4f, 0.5f))
             {
-                if ((current_direction != input_direction) && (!CheckOppositeDirectionInput()))
+                if ((PlayerCurrentDirection != input_direction) && (!CheckOppositeDirectionInput()))
                     RoundPosition();
-                current_direction = MoveDirection.Forward;
+                PlayerCurrentDirection = MoveDirection.Forward;
             }
         }
         else if (input_direction == MoveDirection.Left)
         {
             if (!CheckFaceWall(MoveDirection.Left, 0.4f, 0.5f))
             {
-                if ((current_direction != input_direction) && (!CheckOppositeDirectionInput()))
+                if ((PlayerCurrentDirection != input_direction) && (!CheckOppositeDirectionInput()))
                     RoundPosition();
-                current_direction = MoveDirection.Left;
+                PlayerCurrentDirection = MoveDirection.Left;
             }
         }
         else if (input_direction == MoveDirection.Backward)
         {
             if (!CheckFaceWall(MoveDirection.Backward, 0.4f, 0.5f))
             {
-                if ((current_direction != input_direction) && (!CheckOppositeDirectionInput()))
+                if ((PlayerCurrentDirection != input_direction) && (!CheckOppositeDirectionInput()))
                     RoundPosition();
-                current_direction = MoveDirection.Backward;
+                PlayerCurrentDirection = MoveDirection.Backward;
             }
         }
         else if (input_direction == MoveDirection.Right)
         {
             if (!CheckFaceWall(MoveDirection.Right, 0.4f, 0.5f))
             {
-                if ((current_direction != input_direction) && (!CheckOppositeDirectionInput()))
+                if ((PlayerCurrentDirection != input_direction) && (!CheckOppositeDirectionInput()))
                     RoundPosition();
-                current_direction = MoveDirection.Right;
+                PlayerCurrentDirection = MoveDirection.Right;
             }
         }
     }
 
     private bool CheckOppositeDirectionInput()
     {
-        if ((current_direction == MoveDirection.Left && input_direction == MoveDirection.Right)
-            || (current_direction == MoveDirection.Right && input_direction == MoveDirection.Left)
-                || (current_direction == MoveDirection.Forward && input_direction == MoveDirection.Backward)
-                    || (current_direction == MoveDirection.Backward && input_direction == MoveDirection.Forward))
+        if ((PlayerCurrentDirection == MoveDirection.Left && input_direction == MoveDirection.Right)
+            || (PlayerCurrentDirection == MoveDirection.Right && input_direction == MoveDirection.Left)
+                || (PlayerCurrentDirection == MoveDirection.Forward && input_direction == MoveDirection.Backward)
+                    || (PlayerCurrentDirection == MoveDirection.Backward && input_direction == MoveDirection.Forward))
         {
             return true;
         }

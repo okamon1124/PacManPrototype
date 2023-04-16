@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class EnemyController : Character
 {
+    [SerializeField] EnemyName enemyName = EnemyName.BLINKY;
     [SerializeField] Vector3 TargetScatterPostion;
+    private GameObject TargetPlayer;
+    private GameObject Blinky;
     private Vector3 TargetPlayerPosition;
     private Vector3 TargetPosition = Vector3.zero;
     private Vector3 LastIntersectionPosition = Vector3.zero;
@@ -14,21 +18,30 @@ public class EnemyController : Character
 
     enum EnemyState
     {
-        CHASE,
-        SCATTER,
-        FRIGHTENDED,
-        EATEN
+        CHASE, SCATTER, FRIGHTENDED, EATEN
+    }
+
+    enum EnemyName
+    {
+        BLINKY, PINKY, INKY, CLYDE
     }
 
     void Start()
     {
-        enemyState= EnemyState.SCATTER;
+        TargetPlayer = GameObject.FindWithTag("Player");
+        if(enemyName == EnemyName.INKY)
+        {
+            Blinky = GameObject.Find("Blinky");
+        }
+
+        enemyState = EnemyState.SCATTER;
         StartCoroutine(ChangeEnemyState());
     }
 
     private void Update()
     {
-        TargetPlayerPosition = GameObject.FindWithTag("Player").transform.position;
+        TargetPlayerPosition = TargetPlayer.transform.position;
+        SetTargetPlayerPosition();
         CheckEnemyState();
         CheckIntersection(0.01f);
         MoveAndTurn(2f, current_direction, 0.1f, 0.5f);
@@ -168,6 +181,80 @@ public class EnemyController : Character
         else if(enemyState == EnemyState.CHASE)
         {
             TargetPosition = TargetPlayerPosition;
+        }
+    }
+
+    private void SetTargetPlayerPosition()
+    {
+        var TargetPlayerDirection = TargetPlayer.GetComponent<PlayerController>().PlayerCurrentDirection;
+        if(enemyName == EnemyName.PINKY)
+        {
+            if(TargetPlayerDirection== MoveDirection.Forward)
+            {
+                TargetPlayerPosition += new Vector3(0f, 0f, 4f);
+            }
+            else if (TargetPlayerDirection== MoveDirection.Left)
+            {
+                TargetPlayerPosition += new Vector3(-4f, 0f, 0f);
+            }
+            else if (TargetPlayerDirection == MoveDirection.Backward)
+            {
+                TargetPlayerPosition += new Vector3(0f, 0f, -4f);
+            }
+            else if (TargetPlayerDirection== MoveDirection.Right)
+            {
+                TargetPlayerPosition += new Vector3(4f, 0f, 0f);
+            }
+        }
+        if(enemyName == EnemyName.INKY)
+        {
+            var BlinkyPosition = Blinky.transform.position;
+            
+            if (TargetPlayerDirection == MoveDirection.Forward)
+            {
+                TargetPlayerPosition += new Vector3(0f, 0f, 4f);
+                TargetPlayerPosition += new Vector3(TargetPlayerPosition.x - BlinkyPosition.x, 0f, TargetPlayerPosition.z - BlinkyPosition.z);
+            }
+            else if (TargetPlayerDirection == MoveDirection.Left)
+            {
+                TargetPlayerPosition += new Vector3(-4f, 0f, 0f);
+                TargetPlayerPosition += new Vector3(TargetPlayerPosition.x - BlinkyPosition.x, 0f, TargetPlayerPosition.z - BlinkyPosition.z);
+            }
+            else if (TargetPlayerDirection == MoveDirection.Backward)
+            {
+                TargetPlayerPosition += new Vector3(0f, 0f, -4f);
+                TargetPlayerPosition += new Vector3(TargetPlayerPosition.x - BlinkyPosition.x, 0f, TargetPlayerPosition.z - BlinkyPosition.z);
+            }
+            else if (TargetPlayerDirection == MoveDirection.Right)
+            {
+                TargetPlayerPosition += new Vector3(4f, 0f, 0f);
+                TargetPlayerPosition += new Vector3(TargetPlayerPosition.x - BlinkyPosition.x, 0f, TargetPlayerPosition.z - BlinkyPosition.z);
+            }
+            print($"Inky target {TargetPlayerPosition.ToString()}");
+
+        }
+        
+    }
+    private void OnDrawGizmos()
+    {
+        if (enemyName == EnemyName.BLINKY)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawSphere(TargetPosition, 0.2f);
+            Gizmos.DrawLine(this.transform.position, TargetPosition);
+        }
+        else if (enemyName == EnemyName.PINKY)
+        {
+            Gizmos.color = new Color(0.8f, 0.5f, 0.8f, 1.0f); ;
+            Gizmos.DrawSphere(TargetPosition, 0.2f);
+            Gizmos.DrawLine(this.transform.position, TargetPosition);
+        }
+
+        else if (enemyName == EnemyName.INKY)
+        {
+            Gizmos.color = Color.cyan;
+            Gizmos.DrawSphere(TargetPosition, 0.2f);
+            Gizmos.DrawLine(this.transform.position, TargetPosition);
         }
     }
 }

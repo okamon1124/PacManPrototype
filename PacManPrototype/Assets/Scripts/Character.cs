@@ -7,7 +7,7 @@ using UnityEngine;
 
 public class Character: MonoBehaviour
 {
-    protected enum MoveDirection
+    public enum MoveDirection
     {
         Left,
         Right,
