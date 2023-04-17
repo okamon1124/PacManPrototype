@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028475, g: 0.2257159, b: 0.30692372, a: 1}
+  m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589246, b: 0.2978263, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1544,7 +1544,7 @@ Transform:
   - {fileID: 246434812}
   - {fileID: 70129855}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &32865429
 GameObject:
@@ -11424,12 +11424,12 @@ GameObject:
   - component: {fileID: 393600304}
   - component: {fileID: 393600303}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: RedPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &393600302
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11670,14 +11670,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -14655,7 +14655,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495153146}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 13, y: 28, z: 15}
+  m_LocalPosition: {x: 13.5, y: 36.5, z: 15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21838,12 +21838,12 @@ GameObject:
   - component: {fileID: 780416978}
   - component: {fileID: 780416977}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: WinTheGamePanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &780416976
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26870,7 +26870,7 @@ PrefabInstance:
     - target: {fileID: 3669650195847187208, guid: 2f485ece102f7724cbee8c961e72f532,
         type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 3669650195847187208, guid: 2f485ece102f7724cbee8c961e72f532,
         type: 3}
@@ -26946,7 +26946,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 365624161d441bb4aa8b2b7a80732416, type: 2}
+      objectReference: {fileID: 2100000, guid: 4892d9f9c859a424b8708abe816c6ce7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f485ece102f7724cbee8c961e72f532, type: 3}
 --- !u!1 &959281983
@@ -29613,7 +29613,7 @@ GameObject:
   - component: {fileID: 1052727424}
   - component: {fileID: 1052727423}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29686,8 +29686,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -29722,7 +29722,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -243.48236, y: 0, z: 5.682373, w: 0}
+  m_margin: {x: 12.314133, y: 0, z: 5.682373, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -33355,7 +33355,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -33412,14 +33412,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1173321217}
-  m_LocalRotation: {x: 0.36963028, y: -0.43938676, z: 0.2048894, w: 0.7926747}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 50, y: -58, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1173321220
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34907,7 +34907,7 @@ GameObject:
   - component: {fileID: 1236721095}
   - component: {fileID: 1236721094}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: RemainingLivesText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34980,14 +34980,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -35016,7 +35016,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -218.97888, w: 0}
+  m_margin: {x: 0, y: 0, z: 1.2911072, w: -1.2883911}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -39331,18 +39331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21f32c188d6b7e64298e21eeebec020a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GameOverPanel: {fileID: 1843927908}
-  PlayerGameObject: {fileID: 0}
-  EnemyGameObjects:
-  - {fileID: 0}
-  - {fileID: 0}
   RemainingLives: 3
-  RemainingLivesText: {fileID: 1236721094}
-  score: 0
-  ScoreText: {fileID: 1052727423}
-  TargetScore: 12
-  WinTheGameUIpanel: {fileID: 780416975}
-  RedPanel: {fileID: 393600301}
 --- !u!4 &1392777489
 Transform:
   m_ObjectHideFlags: 0
@@ -54017,12 +54006,12 @@ GameObject:
   - component: {fileID: 1843927911}
   - component: {fileID: 1843927910}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: GameOverPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1843927909
 RectTransform:
   m_ObjectHideFlags: 0

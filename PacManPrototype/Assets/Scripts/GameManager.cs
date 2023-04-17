@@ -8,21 +8,19 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] GameObject GameOverPanel;
-    [SerializeField] GameObject PlayerGameObject;
-    [SerializeField] GameObject[] EnemyGameObjects;
-
     [SerializeField] int RemainingLives = 3;
-    [SerializeField] TMP_Text RemainingLivesText;
 
-    [SerializeField] int score = 0;
-    [SerializeField] TMP_Text ScoreText;
-    [SerializeField] int TargetScore = 3;
-    private int TargetNumberOfEnemyToKill;
-    private int CurrentNumberOfEnemyToKill = 0;
+    GameObject PlayerGameObject;
+    GameObject[] EnemyGameObjects;
+    GameObject GameOverPanel;
+    GameObject WinTheGamePanel;
+    GameObject RedPanel;
+    
+    TMP_Text RemainingLivesText;
+    TMP_Text ScoreText;
 
-    [SerializeField] GameObject WinTheGameUIpanel;
-    [SerializeField] GameObject RedPanel;
+    private int score = 0;
+    private int TargetScore;
 
     public static GameManager instance;
 
@@ -41,9 +39,20 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        PlayerGameObject = GameObject.FindWithTag("Player");
+        EnemyGameObjects = GameObject.FindGameObjectsWithTag("Enemy");
+        GameOverPanel = GameObject.Find("GameOverPanel");
+        GameOverPanel.SetActive(false);
+        WinTheGamePanel = GameObject.Find("WinTheGamePanel");
+        WinTheGamePanel.SetActive(false);
+        RedPanel = GameObject.Find("RedPanel");
+        RedPanel.SetActive(false);
+        RemainingLivesText = GameObject.Find("RemainingLivesText").GetComponent<TMP_Text>();
+        ScoreText= GameObject.Find("ScoreText").GetComponent<TMP_Text>();
+        TargetScore = GameObject.FindGameObjectsWithTag("pac_dot").Length;
+
         RemainingLivesText.text = "Remaing lives: " + RemainingLives.ToString();
         ScoreText.text = "score: " + score.ToString();
-        TargetNumberOfEnemyToKill = EnemyGameObjects.Length;
     }
 
     public void HitByEnemy()
@@ -90,7 +99,7 @@ public class GameManager : MonoBehaviour
         }
 
         Destroy(PlayerGameObject);
-        WinTheGameUIpanel.SetActive(true);
+        WinTheGamePanel.SetActive(true);
         StartCoroutine(BackToMenu());
     }
 
@@ -103,15 +112,6 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(0);
-    }
-
-    public void KillEnemy()
-    {
-        CurrentNumberOfEnemyToKill += 1;
-        if(CurrentNumberOfEnemyToKill == TargetNumberOfEnemyToKill) 
-        {
-            WinTheGame();
-        }
     }
 
     IEnumerator ShowRedPanel()

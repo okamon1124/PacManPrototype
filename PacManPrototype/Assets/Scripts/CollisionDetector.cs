@@ -16,7 +16,7 @@ public class CollisionDetector : MonoBehaviour
         else if (collision.gameObject.tag == "Enemy" && playerStatus.PlayerEmpowered == true)
         {
             Destroy(collision.gameObject);
-            GameManager.instance.KillEnemy();
+            //GameManager.instance.KillEnemy();
         }
     }
 
