@@ -9,6 +9,7 @@ TagManager:
   - power_pellet
   - wall
   - intersection_cube
+  - DontDestroyData
   layers:
   - Default
   - TransparentFX

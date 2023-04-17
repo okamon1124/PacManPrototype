@@ -166,10 +166,10 @@ public class EnemyController : Character
         {
             yield return new WaitForSeconds(10f);
             enemyState = EnemyState.CHASE;
-            print("enemy chasing you!");
+            //print("enemy chasing you!");
             yield return new WaitForSeconds(10f);
             enemyState = EnemyState.SCATTER;
-            print("enemy patrolling...");
+            //print("enemy patrolling...");
         }
     }
 

@@ -6,8 +6,8 @@ using System;
 public class PlayerController : Character
 {
     MoveDirection input_direction = MoveDirection.Right;
-    public MoveDirection PlayerCurrentDirection = MoveDirection.Right;
-    
+    public MoveDirection PlayerCurrentDirection { get; private set; } = MoveDirection.Right;
+
     private void Start()
     {
         RoundPosition();
@@ -18,6 +18,12 @@ public class PlayerController : Character
         ChangeInputDirection();
         ChangeDirection();
         MoveAndTurn(2f, PlayerCurrentDirection, 0.1f, 0.5f);
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            GameManager.instance.ReloadScene();
+        }
+
     }
 
     private void ChangeInputDirection()

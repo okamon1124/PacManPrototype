@@ -4,36 +4,39 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-
-
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] int RemainingLives = 3;
+    public int TotalLives { get; private set; } = 3;
 
-    GameObject PlayerGameObject;
-    GameObject[] EnemyGameObjects;
-    GameObject GameOverPanel;
-    GameObject WinTheGamePanel;
-    GameObject RedPanel;
+    private GameObject PlayerGameObject;
+    private GameObject[] EnemyGameObjects;
+    private GameObject GameOverPanel;
+    private GameObject WinTheGamePanel;
+    private GameObject RedPanel;
     
-    TMP_Text RemainingLivesText;
-    TMP_Text ScoreText;
+    private TMP_Text RemainingLivesText;
+    private TMP_Text ScoreText;
 
-    private int score = 0;
-    private int TargetScore;
-
-    public static GameManager instance;
+    public static GameManager instance { get; private set; }
 
     private void Awake()
     {
-        instance= this;
+        if(instance == null)
+        {
+            instance = this;
+            
+        }
+        else
+        {
+            Destroy(this);
+        }
     }
 
     private void OnDestroy()
     {
-        if (instance != null)
+        if (instance == this)
         {
-            Destroy(instance);
+            instance = null;
         }
     }
 
@@ -49,23 +52,28 @@ public class GameManager : MonoBehaviour
         RedPanel.SetActive(false);
         RemainingLivesText = GameObject.Find("RemainingLivesText").GetComponent<TMP_Text>();
         ScoreText= GameObject.Find("ScoreText").GetComponent<TMP_Text>();
-        TargetScore = GameObject.FindGameObjectsWithTag("pac_dot").Length;
 
-        RemainingLivesText.text = "Remaing lives: " + RemainingLives.ToString();
-        ScoreText.text = "score: " + score.ToString();
+        DetroyPacDots();
+
+        RemainingLivesText.text = "Remaing lives: " + DontDestroyData.instance.remaining_lives.ToString();
+        ScoreText.text = "score: " + DontDestroyData.instance.static_score.ToString();
     }
 
     public void HitByEnemy()
     {
-        RemainingLives--;
-        RemainingLivesText.text = "Remaing lives: " + RemainingLives.ToString();
+        DontDestroyData.instance.remaining_lives--;
+        RemainingLivesText.text = "Remaing lives: " + DontDestroyData.instance.remaining_lives.ToString();
         StartCoroutine(ShowRedPanel());
-        if (RemainingLives <= 0) 
+
+        if (DontDestroyData.instance.remaining_lives <= 0) 
         {
             GameOver();
         }
+        else
+        {
+            Revive();
+        }
     }
-
 
     private void GameOver()
     {
@@ -83,9 +91,9 @@ public class GameManager : MonoBehaviour
 
     public void GainScore()
     {
-        score += 1;
-        ScoreText.text = "score: " + score.ToString();
-        if( score == TargetScore)
+        DontDestroyData.instance.static_score += 1;
+        ScoreText.text = "score: " + DontDestroyData.instance.static_score.ToString();
+        if( DontDestroyData.instance.static_score == DontDestroyData.instance.target_score)
         {
             WinTheGame();
         }
@@ -106,11 +114,7 @@ public class GameManager : MonoBehaviour
     IEnumerator BackToMenu()
     {
         yield return new WaitForSeconds(2f);
-        SceneManager.LoadScene(0);
-    }
-
-    public void RestartGame()
-    {
+        Destroy(GameObject.FindGameObjectWithTag("DontDestroyData"));
         SceneManager.LoadScene(0);
     }
 
@@ -119,5 +123,32 @@ public class GameManager : MonoBehaviour
         RedPanel.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         RedPanel.SetActive(false);
+    }
+
+    public void ReloadScene()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    private void Revive()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    private void DetroyPacDots()
+    {
+        var PacDotsArray = GameObject.FindGameObjectsWithTag("pac_dot");
+        var PacDotsList = new List<GameObject>();
+        foreach (var pacdot in PacDotsArray)
+        {
+            PacDotsList.Add(pacdot);
+        }
+        foreach(var pacdot in PacDotsList)
+        {
+            if (DontDestroyData.instance.DestroyedPacDotsName.Contains(pacdot.name))
+            {
+                Destroy(pacdot);
+            }
+        }
     }
 }

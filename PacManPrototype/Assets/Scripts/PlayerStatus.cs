@@ -9,13 +9,15 @@ public class PlayerStatus : MonoBehaviour
 
     [SerializeField] private Material PlayerMaterial;
     [SerializeField] private Material PowerPelletMaterial;
-    [SerializeField] private GameObject PowerUpModeText;
+    private GameObject PowerUpModeText;
 
     private Renderer player_material;
 
     private void Start()
     {
         player_material = this.gameObject.GetComponent<Renderer>();
+        PowerUpModeText = GameObject.Find("PowerUpModeText");
+        PowerUpModeText.SetActive(false);
     }
 
     public void PlayerPowerUP()
