@@ -19,36 +19,36 @@ public class Character: MonoBehaviour
     {
         if (currentDirection == MoveDirection.Forward)
         {
-            if (!CheckFaceWall(currentDirection, CheckSphereSize, CheckSpherePosition))
+            if (!CheckIfFacingWall(currentDirection, CheckSphereSize, CheckSpherePosition))
                 transform.position += new Vector3(0f, 0f, movementSpeed * Time.deltaTime);
             else
-                RoundPosition();
+                RoundPositionValues();
         }
         else if (currentDirection == MoveDirection.Left)
         {
-            if (!CheckFaceWall(currentDirection, CheckSphereSize, CheckSpherePosition))
+            if (!CheckIfFacingWall(currentDirection, CheckSphereSize, CheckSpherePosition))
                 transform.position += new Vector3(-movementSpeed * Time.deltaTime, 0f, 0f);
             else
-                RoundPosition();
+                RoundPositionValues();
         }
         else if (currentDirection == MoveDirection.Backward)
         {
-            if (!CheckFaceWall(currentDirection, CheckSphereSize, CheckSpherePosition))
+            if (!CheckIfFacingWall(currentDirection, CheckSphereSize, CheckSpherePosition))
                 transform.position += new Vector3(0f, 0f, -movementSpeed * Time.deltaTime);
             else
-                RoundPosition();
+                RoundPositionValues();
         }
         else if (currentDirection == MoveDirection.Right)
         {
-            if (!CheckFaceWall(currentDirection, CheckSphereSize, CheckSpherePosition))
+            if (!CheckIfFacingWall(currentDirection, CheckSphereSize, CheckSpherePosition))
                 transform.position += new Vector3(movementSpeed * Time.deltaTime, 0f, 0f);
             else
-                RoundPosition();
+                RoundPositionValues();
         }
     }
 
     
-    protected void RoundPosition()
+    protected void RoundPositionValues()
     {
         double x_pos = Convert.ToDouble(transform.position.x);
         double y_pos = Convert.ToDouble(transform.position.y);
@@ -61,31 +61,31 @@ public class Character: MonoBehaviour
         transform.position = new Vector3((float)x_pos, (float)y_pos, (float)z_pos);
     }
 
-    protected bool CheckFaceWall(MoveDirection moveDirection, float CheckSphereSize, float CheckSpherePosition)
+    protected bool CheckIfFacingWall(MoveDirection moveDirection, float CheckSphereSize, float CheckSpherePosition)
     {
         if (moveDirection == MoveDirection.Forward)
         {
             var collideList = Physics.OverlapSphere(transform.position + new Vector3(0f, 0f, CheckSpherePosition), CheckSphereSize);
-            return CollideChecker(collideList, "wall");
+            return CollidesContainTag(collideList, "wall");
         }
         else if (moveDirection == MoveDirection.Left)
         {
             var collideList = Physics.OverlapSphere(transform.position + new Vector3(-CheckSpherePosition, 0f, 0f), CheckSphereSize);
-            return CollideChecker(collideList, "wall");
+            return CollidesContainTag(collideList, "wall");
         }
         else if (moveDirection == MoveDirection.Backward)
         {
             var collideList = Physics.OverlapSphere(transform.position + new Vector3(0f, 0f, -CheckSpherePosition), CheckSphereSize);
-            return CollideChecker(collideList, "wall");
+            return CollidesContainTag(collideList, "wall");
         }
         else
         {
             var collideList = Physics.OverlapSphere(transform.position + new Vector3(CheckSpherePosition, 0f, 0f), CheckSphereSize);
-            return CollideChecker(collideList, "wall");
+            return CollidesContainTag(collideList, "wall");
         }
     }
 
-    protected bool CollideChecker(Collider[] collideList, string propose_tag)
+    protected bool CollidesContainTag(Collider[] collideList, string propose_tag)
     {
         bool found_any = false;
 

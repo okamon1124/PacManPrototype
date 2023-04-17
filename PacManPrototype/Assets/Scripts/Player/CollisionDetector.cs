@@ -31,11 +31,13 @@ public class CollisionDetector : MonoBehaviour
             {
                 if(playerStatus.PlayerEmpowered == false)
                 {
-                    GameManager.instance.HitByEnemy();
+                    if(collide.gameObject.GetComponent<EnemyController>().EatenByPlayer == false)
+                        GameManager.instance.HitByEnemy();
                 }
                 else
                 {
-                    Destroy(collide.gameObject);
+                    if (collide.gameObject.GetComponent<EnemyController>().EatenByPlayer == false)
+                        collide.gameObject.GetComponent<EnemyController>().EatenByEmpoweredPlayer();
                 }
             }
         }

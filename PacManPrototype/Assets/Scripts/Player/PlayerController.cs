@@ -10,7 +10,7 @@ public class PlayerController : Character
 
     private void Start()
     {
-        RoundPosition();
+        RoundPositionValues();
     }
 
     private void Update()
@@ -50,37 +50,37 @@ public class PlayerController : Character
     {
         if(input_direction == MoveDirection.Forward)
         {
-            if(!CheckFaceWall(MoveDirection.Forward, 0.4f, 0.5f))
+            if(!CheckIfFacingWall(MoveDirection.Forward, 0.4f, 0.5f))
             {
                 if ((PlayerCurrentDirection != input_direction) && (!CheckOppositeDirectionInput()))
-                    RoundPosition();
+                    RoundPositionValues();
                 PlayerCurrentDirection = MoveDirection.Forward;
             }
         }
         else if (input_direction == MoveDirection.Left)
         {
-            if (!CheckFaceWall(MoveDirection.Left, 0.4f, 0.5f))
+            if (!CheckIfFacingWall(MoveDirection.Left, 0.4f, 0.5f))
             {
                 if ((PlayerCurrentDirection != input_direction) && (!CheckOppositeDirectionInput()))
-                    RoundPosition();
+                    RoundPositionValues();
                 PlayerCurrentDirection = MoveDirection.Left;
             }
         }
         else if (input_direction == MoveDirection.Backward)
         {
-            if (!CheckFaceWall(MoveDirection.Backward, 0.4f, 0.5f))
+            if (!CheckIfFacingWall(MoveDirection.Backward, 0.4f, 0.5f))
             {
                 if ((PlayerCurrentDirection != input_direction) && (!CheckOppositeDirectionInput()))
-                    RoundPosition();
+                    RoundPositionValues();
                 PlayerCurrentDirection = MoveDirection.Backward;
             }
         }
         else if (input_direction == MoveDirection.Right)
         {
-            if (!CheckFaceWall(MoveDirection.Right, 0.4f, 0.5f))
+            if (!CheckIfFacingWall(MoveDirection.Right, 0.4f, 0.5f))
             {
                 if ((PlayerCurrentDirection != input_direction) && (!CheckOppositeDirectionInput()))
-                    RoundPosition();
+                    RoundPositionValues();
                 PlayerCurrentDirection = MoveDirection.Right;
             }
         }

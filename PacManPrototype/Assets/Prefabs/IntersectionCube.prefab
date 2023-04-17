@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7576539072938951985}
   m_Layer: 0
   m_Name: IntersectionCube
-  m_TagString: intersection_cube
+  m_TagString: intersection_area
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
