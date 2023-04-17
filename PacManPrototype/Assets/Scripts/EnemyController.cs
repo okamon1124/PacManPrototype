@@ -12,6 +12,7 @@ public class EnemyController : Character
     private Vector3 TargetPlayerPosition;
     private Vector3 TargetPosition = Vector3.zero;
     private Vector3 LastIntersectionPosition = Vector3.zero;
+    private bool ClydeIsClose = false;
 
     MoveDirection current_direction = MoveDirection.Right;
     EnemyState enemyState = EnemyState.SCATTER;
@@ -180,7 +181,14 @@ public class EnemyController : Character
         }
         else if(enemyState == EnemyState.CHASE)
         {
-            TargetPosition = TargetPlayerPosition;
+            if(ClydeIsClose)
+            {
+                TargetPosition = TargetScatterPostion;
+            }
+            else
+            {
+                TargetPosition = TargetPlayerPosition;
+            }
         }
     }
 
@@ -230,10 +238,22 @@ public class EnemyController : Character
                 TargetPlayerPosition += new Vector3(4f, 0f, 0f);
                 TargetPlayerPosition += new Vector3(TargetPlayerPosition.x - BlinkyPosition.x, 0f, TargetPlayerPosition.z - BlinkyPosition.z);
             }
-            print($"Inky target {TargetPlayerPosition.ToString()}");
+            //print($"Inky target {TargetPlayerPosition.ToString()}");
 
         }
-        
+        if(enemyName == EnemyName.CLYDE)
+        {
+            //print(Mathf.Abs(Vector3.Distance(this.transform.position, TargetPlayerPosition)));
+            
+            if(Mathf.Abs(Vector3.Distance(this.transform.position, TargetPlayerPosition)) < 8f)
+            {
+                ClydeIsClose= true;
+            }
+            else
+            {
+                ClydeIsClose= false;
+            }
+        }
     }
     private void OnDrawGizmos()
     {
@@ -253,6 +273,13 @@ public class EnemyController : Character
         else if (enemyName == EnemyName.INKY)
         {
             Gizmos.color = Color.cyan;
+            Gizmos.DrawSphere(TargetPosition, 0.2f);
+            Gizmos.DrawLine(this.transform.position, TargetPosition);
+        }
+        else if(enemyName == EnemyName.CLYDE)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireSphere(transform.position, 8f);
             Gizmos.DrawSphere(TargetPosition, 0.2f);
             Gizmos.DrawLine(this.transform.position, TargetPosition);
         }

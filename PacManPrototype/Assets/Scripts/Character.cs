@@ -47,6 +47,7 @@ public class Character: MonoBehaviour
         }
     }
 
+    
     protected void RoundPosition()
     {
         double x_pos = Convert.ToDouble(transform.position.x);
@@ -97,7 +98,5 @@ public class Character: MonoBehaviour
         }
         return found_any;
     }
-
-    
 
 }
