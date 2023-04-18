@@ -27,10 +27,13 @@ public class EnemyCommander : MonoBehaviour
         }
     }
 
+    //public bool Frighteneded { get; private set; } = false;
+
     public enum EnemyState
     {
         CHASE, SCATTER
     }
+
 
     public EnemyState enemyState { get; private set; }
 

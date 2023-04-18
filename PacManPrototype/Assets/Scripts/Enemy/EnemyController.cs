@@ -9,6 +9,8 @@ public class EnemyController : Character
 
     [SerializeField] float EnemyMovementSpeed = 2f;
     float EatenSpeedMultiplier = 2f;
+    float FrightenedSpeedMultiplier = 0.5f;
+    float initial_speed;
 
     public bool EatenByPlayer { get; private set; } = false;
 
@@ -31,6 +33,9 @@ public class EnemyController : Character
 
     private MoveDirection current_direction = MoveDirection.Right;
 
+    private bool Frightened = false;
+
+
     enum EnemyName
     {
         BLINKY, PINKY, INKY, CLYDE
@@ -38,6 +43,7 @@ public class EnemyController : Character
 
     void Start()
     {
+        initial_speed = EnemyMovementSpeed;
         StartCoroutine(GetOutOfCage(InitialWaitingTime));
         TargetPlayer = GameObject.FindWithTag("Player");
         if(enemyName == EnemyName.INKY)
@@ -48,10 +54,13 @@ public class EnemyController : Character
 
     private void Update()
     {
-        if (!EnemyInCage)
+        if (EnemyInCage)
+        {
+            return;
+        }
         {
             SetTargetPlayerPosition();
-            CheckEnemyState();
+            CheckEnemyStateAndSetTargetPosition();
             CheckIntersection(0.01f);
             MoveAndTurn(EnemyMovementSpeed, current_direction, 0.1f, 0.5f);
         }
@@ -122,17 +131,22 @@ public class EnemyController : Character
         }
     }
 
-    private void CheckEnemyState()
+    private void CheckEnemyStateAndSetTargetPosition()
     {
         if (EatenByPlayer)
         {
             TargetPosition = InitialTeleportPosition;
             if(Mathf.Abs(Vector3.Distance(TargetPosition, transform.position)) <= 0.2)
             {
-                EnemyMovementSpeed = EnemyMovementSpeed / EatenSpeedMultiplier;
+                EnemyMovementSpeed = initial_speed;
                 transform.position = PositionInCage;
+                EnemyInCage = true;
                 StartCoroutine(GetOutOfCage(5f));
             }
+        }
+        else if (Frightened)
+        {
+            TargetPosition = new Vector3(Random.Range(0f, 30f), 0f, Random.Range(0f, 30f));
         }
         else if (EnemyCommander.instance.enemyState == EnemyCommander.EnemyState.SCATTER)
         {
@@ -277,12 +291,34 @@ public class EnemyController : Character
 
     public void EatenByEmpoweredPlayer()
     {
-        current_direction = FindOppositeDirection(current_direction);
+        //current_direction = FindOppositeDirection(current_direction);
+        Frightened = false;
         EatenByPlayer = true;
-        EnemyMovementSpeed = EnemyMovementSpeed * EatenSpeedMultiplier;
+        EnemyMovementSpeed = initial_speed * EatenSpeedMultiplier;
     }
 
-    
+    public void RunAwayFromPlayer(bool playerEmpowered)
+    {
+        if (EnemyInCage)
+        {
+            return;
+        }
+        if (playerEmpowered)
+        {
+            Frightened = true;
+            EnemyMovementSpeed = initial_speed * FrightenedSpeedMultiplier;
+            current_direction = FindOppositeDirection(current_direction);
+        }
+        else
+        {
+            if(Frightened)
+            {
+                Frightened = false;
+                EnemyMovementSpeed = initial_speed;
+            }
+        }
+    }
+
     private void OnDrawGizmos()
     {
         if (enemyName == EnemyName.BLINKY)

@@ -5,13 +5,8 @@ using System;
 
 public class PlayerController : Character
 {
-    MoveDirection input_direction = MoveDirection.Right;
-    public MoveDirection PlayerCurrentDirection { get; private set; } = MoveDirection.Right;
-
-    private void Start()
-    {
-        RoundPositionValues();
-    }
+    MoveDirection input_direction = MoveDirection.Forward;
+    public MoveDirection PlayerCurrentDirection { get; private set; } = MoveDirection.Forward;
 
     private void Update()
     {

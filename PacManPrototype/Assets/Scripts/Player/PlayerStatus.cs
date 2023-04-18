@@ -13,8 +13,12 @@ public class PlayerStatus : MonoBehaviour
 
     private Renderer player_material;
 
+    GameObject[] Enemies;
+
     private void Start()
     {
+        Enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
         player_material = this.gameObject.GetComponent<Renderer>();
         PowerUpModeText = GameObject.Find("PowerUpModeText");
         PowerUpModeText.SetActive(false);
@@ -23,7 +27,7 @@ public class PlayerStatus : MonoBehaviour
     public void PlayerPowerUP()
     {
         PlayerEmpowered = true;
-        
+        CallRunAwayMethod(true);
         player_material.material = PowerPelletMaterial;
         PowerUpModeText.SetActive(true);
         StartCoroutine(PlayerPowerUPcoroutine());
@@ -31,11 +35,18 @@ public class PlayerStatus : MonoBehaviour
 
     IEnumerator PlayerPowerUPcoroutine()
     {
-        
         yield return new WaitForSeconds(5f);
         player_material.material = PlayerMaterial;
         PlayerEmpowered= false;
+        CallRunAwayMethod(false);
         PowerUpModeText.SetActive(false);
     }
 
+    void CallRunAwayMethod(bool playerEmpowered)
+    {
+        foreach (GameObject enemy in Enemies)
+        {
+            enemy.GetComponent<EnemyController>().RunAwayFromPlayer(playerEmpowered);
+        }
+    }
 }
