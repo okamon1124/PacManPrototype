@@ -35,6 +35,9 @@ public class EnemyController : Character
 
     private bool Frightened = false;
 
+    [SerializeField] private Material InitialMaterial;
+    [SerializeField] private Material FrightendedMaterial;
+    [SerializeField] private Material EatenMaterial;
 
     enum EnemyName
     {
@@ -61,7 +64,7 @@ public class EnemyController : Character
         {
             SetTargetPlayerPosition();
             CheckEnemyStateAndSetTargetPosition();
-            CheckIntersection(0.01f);
+            CheckHitIntersectionOrTeleportationArea(0.01f);
             MoveAndTurn(EnemyMovementSpeed, current_direction, 0.1f, 0.5f);
         }
     }
@@ -141,6 +144,7 @@ public class EnemyController : Character
                 EnemyMovementSpeed = initial_speed;
                 transform.position = PositionInCage;
                 EnemyInCage = true;
+                ChageMaterial(InitialMaterial);
                 StartCoroutine(GetOutOfCage(5f));
             }
         }
@@ -165,7 +169,7 @@ public class EnemyController : Character
         }
     }
 
-    private void CheckIntersection(float CheckSphereSize)
+    private void CheckHitIntersectionOrTeleportationArea(float CheckSphereSize)
     {
         var collideList = Physics.OverlapSphere(transform.position, CheckSphereSize);
         if (CollidesContainTag(collideList, "intersection_area"))
@@ -225,7 +229,10 @@ public class EnemyController : Character
         var possibleNextDirections = new HashSet<MoveDirection>() { MoveDirection.Forward,  MoveDirection.Left, MoveDirection.Backward, MoveDirection.Right};
         var DirectionToRemove = new HashSet<MoveDirection>();
 
-        possibleNextDirections.Remove(FindOppositeDirection(current_direction));
+        if (!Frightened)
+        {
+            possibleNextDirections.Remove(FindOppositeDirection(current_direction));
+        }
 
         foreach (var direction in possibleNextDirections)
         {
@@ -316,6 +323,7 @@ public class EnemyController : Character
         Frightened = false;
         EatenByPlayer = true;
         EnemyMovementSpeed = initial_speed * EatenSpeedMultiplier;
+        ChageMaterial(EatenMaterial);
     }
 
     public void RunAwayFromPlayer(bool playerEmpowered)
@@ -329,6 +337,7 @@ public class EnemyController : Character
             Frightened = true;
             EnemyMovementSpeed = initial_speed * FrightenedSpeedMultiplier;
             current_direction = FindOppositeDirection(current_direction);
+            ChageMaterial(FrightendedMaterial);
         }
         else
         {
@@ -336,6 +345,7 @@ public class EnemyController : Character
             {
                 Frightened = false;
                 EnemyMovementSpeed = initial_speed;
+                ChageMaterial(InitialMaterial);
             }
         }
     }
@@ -376,5 +386,14 @@ public class EnemyController : Character
         EatenByPlayer = false;
         transform.position = InitialTeleportPosition;
         EnemyInCage = false;
+    }
+
+    void ChageMaterial(Material material)
+    {
+        var meshes = transform.GetChild(0);
+        for (int i = 0; i < 2; i++)
+        {
+            meshes.GetChild(i).GetComponent<Renderer>().material = material;
+        }
     }
 }

@@ -9,9 +9,8 @@ public class PlayerStatus : MonoBehaviour
 
     [SerializeField] private Material PlayerMaterial;
     [SerializeField] private Material PowerPelletMaterial;
+    [SerializeField] private float EmpoweredDuration = 10f;
     private GameObject PowerUpModeText;
-
-    private Renderer player_material;
 
     GameObject[] Enemies;
 
@@ -19,7 +18,6 @@ public class PlayerStatus : MonoBehaviour
     {
         Enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
-        player_material = this.gameObject.GetComponent<Renderer>();
         PowerUpModeText = GameObject.Find("PowerUpModeText");
         PowerUpModeText.SetActive(false);
     }
@@ -28,16 +26,26 @@ public class PlayerStatus : MonoBehaviour
     {
         PlayerEmpowered = true;
         CallRunAwayMethod(true);
-        player_material.material = PowerPelletMaterial;
+        var meshes = transform.GetChild(0);
+        for (int i = 0; i < meshes.childCount; i++)
+        {
+            meshes.GetChild(i).GetComponent<Renderer>().material = PowerPelletMaterial;
+        }
+
         PowerUpModeText.SetActive(true);
         StartCoroutine(PlayerPowerUPcoroutine());
     }
 
     IEnumerator PlayerPowerUPcoroutine()
     {
-        yield return new WaitForSeconds(5f);
-        player_material.material = PlayerMaterial;
-        PlayerEmpowered= false;
+        yield return new WaitForSeconds(EmpoweredDuration);
+        var meshes = transform.GetChild(0);
+        for (int i = 0; i < meshes.childCount; i++)
+        {
+            meshes.GetChild(i).GetComponent<Renderer>().material = PlayerMaterial;
+        }
+
+        PlayerEmpowered = false;
         CallRunAwayMethod(false);
         PowerUpModeText.SetActive(false);
     }

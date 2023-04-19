@@ -24,6 +24,8 @@ public class LevelEditor : EditorWindow
         IntersectionColliderPrefab = (GameObject)EditorGUILayout.ObjectField("Drag IntersectionPrefab", IntersectionColliderPrefab, typeof(GameObject), false);
         PacDotPrefab = (GameObject)EditorGUILayout.ObjectField("Drag PacDotPrefab", PacDotPrefab, typeof(GameObject), false);
 
+        GUILayout.Label("Please Select \"Stage\" GameObject in Hierachy before pressing \"Creat Level\" and \"Clear\" Button");
+
         if (GUILayout.Button("Creat Level"))
         {
             ClearPrefabs();

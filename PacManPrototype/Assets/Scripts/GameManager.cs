@@ -151,4 +151,15 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    public void BackToStartMenuButton()
+    {
+        Destroy(GameObject.FindGameObjectWithTag("DontDestroyData"));
+        SceneManager.LoadScene(0);
+    }
 }

@@ -11,4 +11,9 @@ public class Launcher : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void QuitGameButton()
+    {
+        Application.Quit();
+    }
+
 }

@@ -44,14 +44,19 @@ public class EnemyCommander : MonoBehaviour
     }
     IEnumerator ChangeEnemyState()
     {
-        while (true)
-        {
-            yield return new WaitForSeconds(10f);
-            enemyState = EnemyState.CHASE;
-            //print("enemy chasing you!");
-            yield return new WaitForSeconds(10f);
-            enemyState = EnemyState.SCATTER;
-            //print("enemy patrolling...");
-        }
+        yield return new WaitForSeconds(7f);
+        enemyState = EnemyState.CHASE;
+        yield return new WaitForSeconds(20f);
+        enemyState = EnemyState.SCATTER;
+        yield return new WaitForSeconds(7f);
+        enemyState = EnemyState.CHASE;
+        yield return new WaitForSeconds(20f);
+        enemyState = EnemyState.SCATTER;
+        yield return new WaitForSeconds(5f);
+        enemyState = EnemyState.CHASE;
+        yield return new WaitForSeconds(20f);
+        enemyState = EnemyState.SCATTER;
+        yield return new WaitForSeconds(5f);
+        enemyState = EnemyState.CHASE;
     }
 }

@@ -15,28 +15,23 @@ public class PlayerController : Character
         ChangeInputDirection();
         ChangeDirection();
         MoveAndTurn(PlayerSpeed, PlayerCurrentDirection, 0.1f, 0.5f);
-
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            GameManager.instance.ReloadScene();
-        }
     }
 
     private void ChangeInputDirection()
     {
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             input_direction = MoveDirection.Forward;
         }
-        else if (Input.GetKeyDown(KeyCode.A))
+        else if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
             input_direction = MoveDirection.Left;
         }
-        else if (Input.GetKeyDown(KeyCode.S))
+        else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             input_direction = MoveDirection.Backward;
         }
-        else if (Input.GetKeyDown(KeyCode.D))
+        else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             input_direction = MoveDirection.Right;
         }
