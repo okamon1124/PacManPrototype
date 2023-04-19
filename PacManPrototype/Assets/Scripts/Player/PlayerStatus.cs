@@ -24,6 +24,7 @@ public class PlayerStatus : MonoBehaviour
 
     public void PlayerPowerUP()
     {
+        
         PlayerEmpowered = true;
         CallRunAwayMethod(true);
         var meshes = transform.GetChild(0);
@@ -33,6 +34,7 @@ public class PlayerStatus : MonoBehaviour
         }
 
         PowerUpModeText.SetActive(true);
+        
         StartCoroutine(PlayerPowerUPcoroutine());
     }
 
@@ -57,4 +59,7 @@ public class PlayerStatus : MonoBehaviour
             enemy.GetComponent<EnemyController>().RunAwayFromPlayer(playerEmpowered);
         }
     }
+
+    
+
 }

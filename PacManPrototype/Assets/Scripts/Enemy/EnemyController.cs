@@ -227,6 +227,7 @@ public class EnemyController : Character
     private void FindPossibleDirections()
     {
         var possibleNextDirections = new HashSet<MoveDirection>() { MoveDirection.Forward,  MoveDirection.Left, MoveDirection.Backward, MoveDirection.Right};
+        
         var DirectionToRemove = new HashSet<MoveDirection>();
 
         if (!Frightened)
@@ -247,6 +248,7 @@ public class EnemyController : Character
             possibleNextDirections.Remove(direction);
         }
         ChooseShortestDirection(possibleNextDirections);
+        
     }
 
     private MoveDirection FindOppositeDirection(MoveDirection moveDirection)
@@ -336,7 +338,10 @@ public class EnemyController : Character
         {
             Frightened = true;
             EnemyMovementSpeed = initial_speed * FrightenedSpeedMultiplier;
-            current_direction = FindOppositeDirection(current_direction);
+            if (LeaveLastIntersectionArea)
+            {
+                current_direction = FindOppositeDirection(current_direction);
+            }
             ChageMaterial(FrightendedMaterial);
         }
         else

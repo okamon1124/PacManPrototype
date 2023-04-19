@@ -24,8 +24,11 @@ public class CollisionDetector : MonoBehaviour
             }
             else if (collide.tag == "power_pellet")
             {
-                Destroy(collide.gameObject);
-                playerStatus.PlayerPowerUP();
+                if (!playerStatus.PlayerEmpowered)
+                {
+                    Destroy(collide.gameObject);
+                    playerStatus.PlayerPowerUP();
+                }
             }
             else if (collide.tag == "Enemy")
             {

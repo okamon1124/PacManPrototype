@@ -35,6 +35,7 @@ public class PlayerController : Character
         {
             input_direction = MoveDirection.Right;
         }
+
     }
 
     private void ChangeDirection()
