@@ -20,28 +20,40 @@ public class Character: MonoBehaviour
         if (currentDirection == MoveDirection.Forward)
         {
             if (!CheckIfFacingWall(currentDirection, CheckSphereSize, CheckSpherePosition))
+            {
                 transform.position += new Vector3(0f, 0f, movementSpeed * Time.deltaTime);
+                transform.GetChild(0).rotation = Quaternion.Euler(0f, 0f, 0f);
+            }
             else
                 RoundPositionValues();
         }
         else if (currentDirection == MoveDirection.Left)
         {
             if (!CheckIfFacingWall(currentDirection, CheckSphereSize, CheckSpherePosition))
+            {
                 transform.position += new Vector3(-movementSpeed * Time.deltaTime, 0f, 0f);
+                transform.GetChild(0).rotation = Quaternion.Euler(0f, -90f, 0f);
+            } 
             else
                 RoundPositionValues();
         }
         else if (currentDirection == MoveDirection.Backward)
         {
             if (!CheckIfFacingWall(currentDirection, CheckSphereSize, CheckSpherePosition))
+            {
                 transform.position += new Vector3(0f, 0f, -movementSpeed * Time.deltaTime);
+                transform.GetChild(0).rotation = Quaternion.Euler(0f, 180f, 0f);
+            }
             else
                 RoundPositionValues();
         }
         else if (currentDirection == MoveDirection.Right)
         {
             if (!CheckIfFacingWall(currentDirection, CheckSphereSize, CheckSpherePosition))
+            {
                 transform.position += new Vector3(movementSpeed * Time.deltaTime, 0f, 0f);
+                transform.GetChild(0).rotation = Quaternion.Euler(0f, 90f, 0f);
+            } 
             else
                 RoundPositionValues();
         }

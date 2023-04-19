@@ -9,6 +9,7 @@ public class LevelEditor : EditorWindow
     Texture2D map;
     GameObject CubePrefab;
     GameObject IntersectionColliderPrefab;
+    GameObject PacDotPrefab;
 
     [MenuItem("Window/LevelEditor")]
     public static void ShowWindow()
@@ -21,6 +22,7 @@ public class LevelEditor : EditorWindow
         map = (Texture2D)EditorGUILayout.ObjectField("Add 2D map here", map, typeof(Texture2D), false);
         CubePrefab = (GameObject)EditorGUILayout.ObjectField("Drag CubePrefab", CubePrefab, typeof(GameObject), false);
         IntersectionColliderPrefab = (GameObject)EditorGUILayout.ObjectField("Drag IntersectionPrefab", IntersectionColliderPrefab, typeof(GameObject), false);
+        PacDotPrefab = (GameObject)EditorGUILayout.ObjectField("Drag PacDotPrefab", PacDotPrefab, typeof(GameObject), false);
 
         if (GUILayout.Button("Creat Level"))
         {
@@ -52,6 +54,12 @@ public class LevelEditor : EditorWindow
         {
             //Debug.Log($"PixelColorInfo R: {pixelColor.r}, G: {pixelColor.g} ,B: {pixelColor.b}");
 
+            if (pixelColor.r == 1 && pixelColor.g == 1)
+            {
+                Vector3 posotion = new Vector3(x, -0.25f, y);
+                var pac_dot = Instantiate(PacDotPrefab, posotion, Quaternion.identity, Selection.transforms[0]);
+                pac_dot.name = PacDotPrefab.name + " position: " +x.ToString() + " "+ y.ToString();
+            }
             if (pixelColor.r == 1)
             {
                 Vector3 posotion = new Vector3(x, -0.25f, y);

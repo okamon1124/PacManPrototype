@@ -10,6 +10,7 @@ TagManager:
   - wall
   - DontDestroyData
   - intersection_area
+  - teleportation_point
   layers:
   - Default
   - TransparentFX

@@ -180,6 +180,11 @@ public class EnemyController : Character
         else
         {
             LeaveLastIntersectionArea = true;
+
+            if(CollidesContainTag(collideList, "teleportation_point"))
+            {
+                HitTeleportationPoint(collideList);
+            }
         }
     }
 
@@ -200,10 +205,26 @@ public class EnemyController : Character
         }
     }
 
+    private void HitTeleportationPoint(Collider[] collide_list)
+    {
+        foreach (var collide in collide_list)
+        {
+            if (collide.tag == "teleportation_point")
+            {
+                if(collide.GetComponent<TeleportationPoint>().AcceptableDirection == current_direction)
+                {
+                    transform.position = collide.GetComponent<TeleportationPoint>().TeleportTargetPosition;
+                    break;
+                }
+            }
+        }
+    }
+
     private void FindPossibleDirections()
     {
         var possibleNextDirections = new HashSet<MoveDirection>() { MoveDirection.Forward,  MoveDirection.Left, MoveDirection.Backward, MoveDirection.Right};
         var DirectionToRemove = new HashSet<MoveDirection>();
+
         possibleNextDirections.Remove(FindOppositeDirection(current_direction));
 
         foreach (var direction in possibleNextDirections)

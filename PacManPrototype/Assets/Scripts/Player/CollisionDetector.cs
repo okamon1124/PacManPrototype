@@ -40,6 +40,14 @@ public class CollisionDetector : MonoBehaviour
                         collide.gameObject.GetComponent<EnemyController>().EatenByEmpoweredPlayer();
                 }
             }
+            else if(collide.tag == "teleportation_point")
+            {
+                if (collide.GetComponent<TeleportationPoint>().AcceptableDirection == gameObject.GetComponent<PlayerController>().PlayerCurrentDirection)
+                {
+                    transform.position = collide.GetComponent<TeleportationPoint>().TeleportTargetPosition;
+                    break;
+                }
+            }
         }
     }
 

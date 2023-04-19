@@ -5,6 +5,8 @@ using System;
 
 public class PlayerController : Character
 {
+    [SerializeField] float PlayerSpeed = 2f;
+    
     MoveDirection input_direction = MoveDirection.Forward;
     public MoveDirection PlayerCurrentDirection { get; private set; } = MoveDirection.Forward;
 
@@ -12,13 +14,12 @@ public class PlayerController : Character
     {
         ChangeInputDirection();
         ChangeDirection();
-        MoveAndTurn(2f, PlayerCurrentDirection, 0.1f, 0.5f);
+        MoveAndTurn(PlayerSpeed, PlayerCurrentDirection, 0.1f, 0.5f);
 
         if (Input.GetKeyDown(KeyCode.R))
         {
             GameManager.instance.ReloadScene();
         }
-
     }
 
     private void ChangeInputDirection()
